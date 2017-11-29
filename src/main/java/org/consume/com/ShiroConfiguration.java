@@ -6,9 +6,7 @@ import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
-import org.consume.com.user.service.UserService;
 import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -25,8 +23,8 @@ import java.util.Map;
 @Configuration
 public class ShiroConfiguration {
 
-    @Autowired(required = false)
-    private UserService service;
+//    @Autowired(required = false)
+//    private UserService service;
 
     @Bean
     public static LifecycleBeanPostProcessor getLifecycleBeanPostProcessor() {
@@ -132,41 +130,6 @@ public class ShiroConfiguration {
     @Bean
     public MyShiroRealm myShiroRealm() {
         MyShiroRealm myShiroRealm = new MyShiroRealm();
-        // myShiroRealm.setCredentialsMatcher(HashedCredentialsMatcher());
         return myShiroRealm;
     }
-
-    // /**
-    // * 凭证匹配器 （由于我们的密码校验交给Shiro的SimpleAuthenticationInfo进行处理了
-    // * 所以我们需要修改下doGetAuthenticationInfo中的代码; ）
-    // *
-    // * @return
-    // */
-    // @Bean
-    // public CredentialsMatcher HashedCredentialsMatcher() {
-    // // TODO Auto-generated method stub
-    // HashedCredentialsMatcher hashedCredentialsMatcher = new
-    // HashedCredentialsMatcher();
-    //
-    // hashedCredentialsMatcher.setHashAlgorithmName("md5");// 散列算法:这里使用MD5算法;
-    // hashedCredentialsMatcher.setHashIterations(2);// 散列的次数，比如散列两次，相当于
-    // // md5(md5(""));
-    //
-    // return hashedCredentialsMatcher;
-    // }
-
-    // /**
-    // * 配置shiro redisManager 使用的是shiro-redis开源插件
-    // *
-    // * @return
-    // */
-    // public RedisManager redisManager() {
-    // RedisManager redisManager = new RedisManager();
-    // redisManager.setHost(host);
-    // redisManager.setPort(port);
-    // redisManager.setExpire(1800);// 配置缓存过期时间
-    // redisManager.setTimeout(timeout);
-    // // redisManager.setPassword(password);
-    // return redisManager;
-    // }
 }

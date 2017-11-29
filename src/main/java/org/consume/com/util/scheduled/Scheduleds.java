@@ -1,13 +1,11 @@
 package org.consume.com.util.scheduled;
 
-import org.consume.com.user.service.UserService;
 import org.consume.com.util.date.Dates2;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
@@ -34,8 +32,8 @@ import java.util.Random;
 public class Scheduleds {
     private final Logger log = LoggerFactory.getLogger(this.getClass());
 
-    @Resource
-    private UserService service;
+//    @Resource
+//    private UserService service;
 
     @Scheduled(cron = "0 0 12 * * ?")
     public void wf() {
@@ -56,7 +54,7 @@ public class Scheduleds {
         String[] str = {"煞笔", "狗日的", "滚蛋", "二货"};
         Random random = new Random();
         int i = random.nextInt(3);
-        service.put("username", str[i], "account", "xuesemofa12345");
+//        service.put("username", str[i], "account", "xuesemofa12345");
 //        log.info("整点报时");
     }
 
@@ -76,7 +74,7 @@ public class Scheduleds {
 //            log.info("程序已进行了："+i+"天");
             String password = Dates2.getDateString1(new Date());
             password = "guanliyuan" + password;
-            service.delGL(password);
+//            service.delGL(password);
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="consume" />
-        <module name="MemberClient" />
+        <module name="cloudclient" />
+        <module name="consume_client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="consume" target="1.8" />
-      <module name="MemberClient" target="1.8" />
+      <module name="cloudclient" target="1.8" />
+      <module name="consume_client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

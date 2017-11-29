@@ -1,85 +1,45 @@
 package org.consume.com.user.controller;
 
-import com.github.pagehelper.Page;
-import org.apache.shiro.authz.annotation.RequiresAuthentication;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.apache.shiro.authz.annotation.RequiresRoles;
-import org.consume.com.user.model.UserModel;
-import org.consume.com.user.service.UserService;
-import org.consume.com.util.base64.Base64Util;
-import org.consume.com.util.date.Dates2;
+import org.consume.com.user.service.UserInterface;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
-
-import java.util.Date;
-import java.util.List;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @name 本类管理员方法请勿动
- * @shiro user:
+ * user
  */
 @RestController
 @RequestMapping("/user")
 public class UserController {
-    private static String user = "/user";
-
-    @Value("${page.pageSize}")
-    private int pageSizeDefull;
+    private final static Logger log = LoggerFactory
+            .getLogger(UserController.class);
 
     @Autowired
-    private UserService service;
+    private UserInterface service;
 
     /**
-     * @param pageNow
-     * @return
-     */
-    @RequiresAuthentication
-    @RequestMapping("/init/{pageNow}")
-    public ModelAndView init(@PathVariable("pageNow") Integer pageNow) {
-        Page<UserModel> allPage = service.findAllPage(pageNow, pageSizeDefull);
-        return new ModelAndView(user + "/index").addObject("pager", allPage);
-    }
-
-    /**
-     * 管理员方法
-     *
-     * @param id
-     * @return
-     */
-    @RequiresRoles("admins")
-    @PostMapping("/getByCD")
-    public List<UserModel> getByCD(@RequestParam("id") String id) {
-        return service.getByCD(id);
-    }
-
-    @RequiresAuthentication
-    @GetMapping("/{id}")
-    public ModelAndView get(@PathVariable("id") String id) {
-        UserModel model = service.getById2(id);
-        return new ModelAndView("/user/index")
-                .addObject("model", model);
-    }
-
-    /**
-     * 管理员方法
+     * 获取当前登录的用户，主要用于shiro
      *
      * @return
      */
     @RequiresRoles("admin")
+    @HystrixCommand(fallbackMethod = "admins_error")
     @GetMapping("/admins")
     public String get() {
-        UserModel model = new UserModel();
-        model.setUsername("管理员");
-        model.setAcctype(1);
-        String password = Dates2.getDateString1(new Date());
-        model.setAccount("guanliyuan" + password);
-        String pwd = Base64Util.encode("guanliyuan" + password);
-        model.setPasswrod(pwd);
-        UserModel user = service.getByAccount(model.getAccount());
-        if (user != null)
-            return "自动生成的管理员已经存在";
-        service.add(model);
-        return "管理员添加成功";
+        String s = service.get();
+        if (s.equals("200"))
+            return "添加成功";
+        else if (s.equals("501"))
+            return "账户已存在";
+        return "添加失败";
+    }
+
+    public String admins_error() {
+        return "账户接口断开";
     }
 }

@@ -1,6 +1,5 @@
 package org.consume.com;
 
-import com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException;
 import org.apache.shiro.authz.AuthorizationException;
 import org.apache.shiro.authz.UnauthenticatedException;
 import org.apache.shiro.authz.UnauthorizedException;
@@ -93,26 +92,26 @@ public class GlobalExceptionHandler {
     }
 
 
-    /**
-     * MYSql数据库违反约束异常
-     *
-     * @param request
-     * @param exception
-     * @return
-     * @throws Exception
-     */
-    @ExceptionHandler(value = MySQLIntegrityConstraintViolationException.class)
-    @ResponseBody
-    public String mySQLIntegrityConstraintViolationException(HttpServletRequest request,
-                                                             Exception exception) throws Exception {
-//        exception.printStackTrace();
-        log.debug("ERROR::::：" + exception.getLocalizedMessage() + "::::::" + new Date());
-        log.debug("ERROR::::：" + exception.getCause() + "::::::" + new Date());
-        log.debug("ERROR::::：" + Arrays.toString(exception.getSuppressed()) + "::::::" + new Date());
-        log.debug("ERROR::::：" + exception.getMessage() + "::::::" + new Date());
-        log.debug("ERROR::::：" + Arrays.toString(exception.getStackTrace()) + "::::::" + new Date());
-        return "MYSql数据库违反约束异常";
-    }
+//    /**
+//     * MYSql数据库违反约束异常
+//     *
+//     * @param request
+//     * @param exception
+//     * @return
+//     * @throws Exception
+//     */
+//    @ExceptionHandler(value = MySQLIntegrityConstraintViolationException.class)
+//    @ResponseBody
+//    public String mySQLIntegrityConstraintViolationException(HttpServletRequest request,
+//                                                             Exception exception) throws Exception {
+////        exception.printStackTrace();
+//        log.debug("ERROR::::：" + exception.getLocalizedMessage() + "::::::" + new Date());
+//        log.debug("ERROR::::：" + exception.getCause() + "::::::" + new Date());
+//        log.debug("ERROR::::：" + Arrays.toString(exception.getSuppressed()) + "::::::" + new Date());
+//        log.debug("ERROR::::：" + exception.getMessage() + "::::::" + new Date());
+//        log.debug("ERROR::::：" + Arrays.toString(exception.getStackTrace()) + "::::::" + new Date());
+//        return "MYSql数据库违反约束异常";
+//    }
 
     /**
      * 类型强制转换异常

@@ -10,10 +10,12 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.consume.com.login.controller.LoginController;
+import org.consume.com.login.service.LoginInterface;
 import org.consume.com.user.model.UserModel;
-import org.consume.com.user.service.UserService;
 import org.consume.com.util.base64.Base64Util;
 import org.consume.com.util.date.Dates2;
+import org.consume.com.util.resultJson.ResponseResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,7 +27,9 @@ public class MyShiroRealm extends AuthorizingRealm {
     private final static Logger logger = LoggerFactory.getLogger(MyShiroRealm.class);
 
     @Resource
-    private UserService service;
+    private LoginInterface service;
+    @Resource
+    private LoginController login;
 
     /**
      * 是权限控制 此方法调用 hasRole,hasPermission的时候才会进行回调.
@@ -40,7 +44,9 @@ public class MyShiroRealm extends AuthorizingRealm {
         // TODO Auto-generated method stub
 //        // 权限信息对象info,用来存放查出的用户的所有的角色（role）及权限（permission）
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
-        UserModel user = service.getLanders();
+        UserModel user = login.getLanders();
+        if (user == null)
+            return info;
         if (user.getAcctype() == 0) {
             info.addRole("admin");
         } else if (user.getAcctype() == 1) {
@@ -58,15 +64,24 @@ public class MyShiroRealm extends AuthorizingRealm {
             info.addStringPermission("heat:add");
             info.addStringPermission("heat:update");
             info.addStringPermission("heat:del");
-//            属性维护
+            //            换热站权限
+            info.addStringPermission("exchange:init");
+            info.addStringPermission("exchange:add");
+            info.addStringPermission("exchange:update");
+            info.addStringPermission("exchange:del");
+            info.addStringPermission("exchange:query");
+            //            机组维护权限
+            info.addStringPermission("crew:init");
+            info.addStringPermission("crew:add");
+            info.addStringPermission("crew:update");
+            info.addStringPermission("crew:del");
+//            属性维护权限
             info.addStringPermission("heatattribute:init");
             info.addStringPermission("heatattribute:add");
             info.addStringPermission("heatattribute:update");
             info.addStringPermission("heatattribute:del");
 
         }
-//        info.addStringPermission("system:subpage");
-//                info.addStringPermission(gif.getGifstsid());
         return info;
     }
 
@@ -76,10 +91,10 @@ public class MyShiroRealm extends AuthorizingRealm {
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authcToken) {
 
-        boolean b = service.resetting2("品逸科技", "IT公司");
-        if (!b) {
-            throw new UnknownAccountException("请向品逸科技购买!");
-        }
+//        boolean b = service.resetting2("品逸科技", "IT公司");
+//        if (!b) {
+//            throw new UnknownAccountException("请向品逸科技购买!");
+//        }
 
 //        // 用户名
         String username = (String) authcToken.getPrincipal();
@@ -90,7 +105,7 @@ public class MyShiroRealm extends AuthorizingRealm {
             String pwd = Base64Util.encode(username);
             user.setPasswrod(pwd);
             user.setAcctype(0);
-            user.setUsername("品逸科技");
+            user.setUsername("LD");
 // 简单验证
             SimpleAuthenticationInfo info = new SimpleAuthenticationInfo(user, user.getPasswrod(), getName());
             // 当验证都通过后，把用户信息放在session里
@@ -99,7 +114,8 @@ public class MyShiroRealm extends AuthorizingRealm {
             session.setAttribute("user", user);
             return info;
         } else {
-            UserModel user = service.getByAccount(username);
+            ResponseResult<UserModel> responseResult = service.getAccount(username);
+            UserModel user = responseResult.getData();
             if (user == null)
 //            用户未找到异常
                 throw new UnknownAccountException("用户或密码不正确!");

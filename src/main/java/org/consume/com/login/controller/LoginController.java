@@ -1,6 +1,7 @@
 package org.consume.com.login.controller;
 
 import com.google.code.kaptcha.impl.DefaultKaptcha;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UnknownAccountException;
@@ -8,6 +9,8 @@ import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.session.SessionException;
 import org.apache.shiro.subject.Subject;
 import org.consume.com.login.model.LoginModel;
+import org.consume.com.login.service.LoginInterface;
+import org.consume.com.user.model.UserModel;
 import org.consume.com.util.base64.Base64Util;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,12 +36,16 @@ public class LoginController {
     @Autowired
     DefaultKaptcha defaultKaptcha;
 
+    @Autowired
+    private LoginInterface loginInterface;
+
     /**
      * @param model  LoginModel
      * @param result BindingResult
      * @return ModelAndView
      */
     @PostMapping("/loginIn")
+    @HystrixCommand(fallbackMethod = "loginIn_error")
     public ModelAndView loginIn(
             @Valid @ModelAttribute("model") LoginModel model,
             BindingResult result, HttpServletRequest httpServletRequest) {
@@ -75,6 +82,26 @@ public class LoginController {
         }
 //        }
 
+    }
+
+    public ModelAndView loginIn_error(LoginModel model,
+                                      BindingResult result, HttpServletRequest httpServletRequest) {
+        return new ModelAndView("/index").addObject("model", model)
+                .addObject("errortext", "登录模块断开");
+    }
+
+    /**
+     * 获取当前登录的用户，主要用于shiro
+     * @return
+     */
+    @HystrixCommand(fallbackMethod = "getLanders_error")
+    public UserModel getLanders() {
+        Subject subject = SecurityUtils.getSubject();
+        return (UserModel) subject.getSession().getAttribute("user");
+    }
+
+    public UserModel getLanders_error() {
+        return null;
     }
 
     @GetMapping("/logout")
