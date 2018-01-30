@@ -4,10 +4,10 @@
     instance-id: ${spring.cloud.client.ipAddress}:${server.port}
   client:
     serviceUrl:
-      defaultZone: http://219.148.38.131:9001/eureka/
+      defaultZone: http://localhost:9001/eureka/
 #端口
 server: 
-  port: 8080
+  port: 8999
   tomcat: 
     uri-encoding: UTF-8
 spring:
@@ -28,15 +28,39 @@ spring:
   resources:
     static-locations: classpath:/static/,classpath:/public/,file:${imgPath}
 
+#邮箱
+  mail:
+#  smtp.163.com
+    host: smtp.qq.com
+    username: 287656156@qq.com
+    password: capvszpolemibgdc
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+feign:
+  hystrix:
+#  开启熔断机制，默认是开启的
+    enabled: true
+#    设置超时时间，防止首次调用出现服务宕机bug
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
 # 日志级别
 error: true
 logging:
-    file: cloudclient.log
-    level: org.consume.com.*.mapper:debug
+    file: client.log
+    level: org.client.com:debug
 
 #分页每页默认条数设置
 page:
-  pageSize: 5
+  pageSize: 15
   
 #全局上传下载读取img路径设置
 imgPath: D:\\work\\

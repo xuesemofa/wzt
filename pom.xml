@@ -153,12 +153,39 @@
             <version>RELEASE</version>
         </dependency>
 
+        <!-- 邮箱 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
+        </dependency>
+        <!--邮箱模版-->
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-velocity -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-velocity</artifactId>
+            <version>1.4.7.RELEASE</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjtools -->
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjtools</artifactId>
             <version>1.8.9</version>
         </dependency>
+
+        <!--<dependency>-->
+        <!--&lt;!&ndash; Required to use PATCH &ndash;&gt;-->
+        <!--<groupId>io.github.openfeign</groupId>-->
+        <!--<artifactId>feign-httpclient</artifactId>-->
+        <!--<version>${feign.version}</version>-->
+        <!--</dependency>-->
+        <!-- https://mvnrepository.com/artifact/com.netflix.feign/feign-httpclient -->
+        <dependency>
+            <groupId>com.netflix.feign</groupId>
+            <artifactId>feign-httpclient</artifactId>
+            <version>8.18.0</version>
+        </dependency>
+
 
     </dependencies>
 

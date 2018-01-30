@@ -36,307 +36,356 @@
                             <span>
                                 <img alt="image" class="img-circle" th:src="@{/img/profile_small.jpg}"/>
                             </span>
-                            <shiro:lacksRole name="admin">
-                                <a data-toggle="dropdown" class="dropdown-toggle" href="full_height.html#">
-                                    <span class="clear">
-                                        <span class="block m-t-xs">
-                                            <strong class="font-bold" th:utext="${session.user.username}">管理员</strong>
-                                        </span>
-                                        <span class="text-muted text-xs block">菜单<b class="caret"></b></span>
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="full_height.html#">
+                                <span class="clear">
+                                    <span class="block m-t-xs">
+                                        <strong class="font-bold" th:utext="${session.map.account}">管理员</strong>
                                     </span>
-                                </a>
-                                <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                                    <li><a th:href="@{'/people/account/'+${session.user.uuid}}" target="right">个人资料</a>
-                                    </li>
-                                </ul>
-                            </shiro:lacksRole>
+                                    <span th:if="${session.map.types != 0}" class="text-muted text-xs block">菜单<b
+                                            class="caret"></b></span>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                                <li th:if="${session.map.types != 0}"><a th:href="@{'/user/'+${session.map.uuid}}"
+                                                                         target="right">个人资料</a></li>
+                            </ul>
                         </div>
                         <div class="logo-element">
-                            LD
+                            ...
                         </div>
                     </li>
                     <!--//菜单盒子开始-->
 
                     <shiro:hasRole name="admin">
                         <li>
-                            <a th:href="@{/user/admins}">添加默认管理员</a>
+                            <a th:href="@{/admin/add}" target="right">添加管理员</a>
                         </li>
+                        <!--<li>-->
+                        <!--<a th:href="@{/jurisdiction/qxcsh}" target="right">权限初始化</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<a th:href="@{/jurisdiction/init/0}" target="right">权限维护</a>-->
+                        <!--</li>-->
                     </shiro:hasRole>
 
                     <shiro:hasRole name="admins">
                         <li>
                             <a th:href="@{/structure/init}" target="right">组织机构</a>
                         </li>
+                        <!--<li>-->
+                        <!--<a th:href="@{/roles/init}" target="right">角色管理</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<a th:href="@{/accRoles/init}" target="right">角色人员关联</a>-->
+                        <!--</li>-->
                         <li>
-                            <a th:href="@{/roles/init}" target="right">角色管理</a>
+                            <a th:href="@{/register/toRegister}" target="right">添加账户</a>
                         </li>
                         <li>
-                            <a th:href="@{/accRoles/init}" target="right">角色人员关联</a>
+                            <a th:href="@{/userJurisdiction/init}" target="right">人员权限关联</a>
                         </li>
                     </shiro:hasRole>
 
-                    <!--<shiro:lacksRole name="admins">-->
-                    <shiro:hasRole name="user">
-                        <shiro:hasPermission name="exchange:init">
-                            <li>
-                                <a th:href="@{/exchange/init/0}" target="right">
-                                    <i class="fa fa-sitemap"></i>
-                                    <span class="nav-label">换热站</span>
-                                    <!--<span class="fa arrow"></span>-->
-                                </a>
-                                <!--<ul class="nav nav-second-level collapse">-->
-                                <!--<li th:each="obj,s:${heats}">-->
-                                <!--<a href="index.html#"><i class="fa  fa-line-chart"></i> <span-->
-                                <!--class="nav-label" th:text="${obj.names}">1号换热站</span><span-->
-                                <!--class="fa arrow"></span></a>-->
-                                <!--<ul class="nav nav-third-level">-->
-                                <!--<li>-->
-                                <!--<a href="add-nav1.html" target="right"> <span-->
-                                <!--class="nav-label">一网供温回温-1</span>-->
-                                <!--</a>-->
-                                <!--</li>-->
-                                <!--<li>-->
-                                <!--<a href="add-nav2.html" target="right"> <span-->
-                                <!--class="nav-label">二网供温回温-1</span>-->
-                                <!--</a>-->
-                                <!--</li>-->
-                                <!--<li>-->
-                                <!--<a href="add-nav3.html" target="right"> <span-->
-                                <!--class="nav-label">一网供压回压-2</span>-->
-                                <!--</a>-->
-                                <!--</li>-->
-                                <!--<li>-->
-                                <!--<a href="add-nav4.html" target="right"> <span-->
-                                <!--class="nav-label">二网供压回压-2</span>-->
-                                <!--</a>-->
-                                <!--</li>-->
-                                <!--</ul>-->
-                                <!--</li>-->
-                                <!--</ul>-->
-                            </li>
-                        </shiro:hasPermission>
-
-                        <li>
-                            <a href="index.html#"><i class="fa  fa-gear "></i> <span class="nav-label">业务功能</span><span
-                                    class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level collapse">
+                    <shiro:lacksRole name="admin">
+                        <shiro:lacksRole name="admins">
+                            <!--<shiro:hasRole name="user">-->
+                            <shiro:hasPermission name="exchange:init">
                                 <li>
-                                    <a th:href="@{/publics/cha-1.html}" target="right"> <span
-                                            class="nav-label">数据查询</span> </a>
-                                </li>
-                                <li>
-                                    <a th:href="@{/publics/cha-2}" target="right"> <span class="nav-label">气象信息</span>
+                                    <a>
+                                        <i class="fa fa-sitemap"></i>
+                                        <span class="nav-label">换热站</span>
+                                        <span class="fa arrow"></span>
                                     </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="index.html#"><i class="fa  fa-gear "></i> <span
-                                    class="nav-label">热源能耗分析</span><span
-                                    class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level collapse">
-                                <li>
-                                    <a th:href="@{/publics/nenghao.html}" target="right"> <span
-                                            class="nav-label">热量统计分析</span> </a>
-                                </li>
-                                <li>
-                                    <a th:href="@{/publics/shuihao.html}" target="right"> <span
-                                            class="nav-label">水量统计分析</span> </a>
-                                </li>
-                                <li>
-                                    <a th:href="@{/publics/dianhao.html}" target="right"> <span
-                                            class="nav-label">电量统计分析</span> </a>
-                                </li>
-                                <li>
-                                    <a th:href="@{/publics/zonghe.html}" target="right"> <span class="nav-label">水电热综合统计分析</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a th:href="@{/publics/zonghe2.html}" target="right"> <span class="nav-label">水电热站与站统计分析</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="index.html#"><i class="fa  fa-gear "></i> <span
-                                    class="nav-label">热源实时工况信息</span><span
-                                    class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level collapse">
-                                <li>
-                                    <a th:href="@{/publics/shishi.html}" target="right"> <span class="nav-label">热源实时工况信息</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="index.html#"><i class="fa  fa-gear "></i> <span
-                                    class="nav-label">换热监控实时工况</span><span
-                                    class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level collapse">
-                                <li>
-                                    <a th:href="@{/publics/shishigong.html}" target="right"> <span class="nav-label">换热监控实时工况</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="index.html#"><i class="fa  fa-gear "></i> <span
-                                    class="nav-label">投诉报修信息</span><span
-                                    class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level collapse">
-                                <li>
-                                    <a th:href="@{/publics/tou-list.html}" target="right"> <span
-                                            class="nav-label">投诉信息</span> </a>
-                                </li>
-                                <li>
-                                    <a th:href="@{/publics/xiu-list.html}" target="right"> <span
-                                            class="nav-label">报修信息</span> </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="index.html#"><i class="fa  fa-user"></i> <span class="nav-label">用户设置</span><span
-                                    class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level collapse">
-                                <shiro:authenticated>
-                                    <li>
-                                        <a th:href="@{/people/toPassword}" target="right"> <span
-                                                class="nav-label">密码修改</span> </a>
-                                    </li>
-                                </shiro:authenticated>
-                                <shiro:hasPermission name="people:init">
-                                    <li>
-                                        <a th:href="@{/people/init(pageNow=1,pageSize=5)}" target="right">
-                                            <span class="nav-label">用户管理</span>
-                                        </a>
-                                    </li>
-                                </shiro:hasPermission>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="index.html#"><i class="fa  fa-gear "></i> <span
-                                    class="nav-label">集成收费系统</span><span
-                                    class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level collapse">
-                                <li>
-                                    <a th:href="@{/publics/cai-list.html}" target="right"> <span class="nav-label">用户采暖负荷信息</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a th:href="@{/publics/shou-list.html}" target="right"> <span
-                                            class="nav-label">收费信息</span> </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="index.html#"><i class="fa  fa-gear "></i> <span
-                                    class="nav-label">换热站成本营销分析</span><span
-                                    class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level collapse">
-                                <li>
-                                    <a th:href="@{/publics/nhcbfx.html}" target="right"> <span class="nav-label">换热站能耗成本分析</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a th:href="@{/publics/yxcbfx.html}" target="right"> <span
-                                            class="nav-label">换热站营销分析</span> </a>
-                                </li>
-                                <li>
-                                    <a th:href="@{/publics/kpicbfx.html}" target="right"> <span class="nav-label">换热站能耗KPI指标管理</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="index.html#"><i class="fa  fa-gear "></i> <span class="nav-label">GIS系统</span><span
-                                    class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level collapse">
-                                <li>
-                                    <a th:href="@{/publics/gis.html}" target="right"> <span
-                                            class="nav-label">GIS系统</span> </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="index.html#"><i class="fa  fa-gear "></i> <span class="nav-label">换热站集合</span><span
-                                    class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level collapse">
-                                <shiro:hasPermission name="heatattribute:init">
-                                    <li>
-                                        <a th:href="@{/heatattribute/init/0}" target="right"> <span class="nav-label">换热站属性集合</span>
-                                        </a>
-                                    </li>
-                                </shiro:hasPermission>
-                                <li>
-                                    <a href="nh-list.html" target="right"> <span class="nav-label">换热站能耗分析</span> </a>
-                                </li>
-                                <li>
-                                    <a href="hrzmc.html" target="right"> <span class="nav-label">换热站能耗时间段分析</span> </a>
                                     <ul class="nav nav-second-level collapse">
                                         <li>
-                                            <a th:href="@{/publics/time-list.html}" target="right"> <span
-                                                    class="nav-label">1号</span>
+                                            <a th:href="@{/exchange/init/0}" target="right">
+                                                <i class="fa  fa-line-chart"></i>
+                                                <span class="nav-label">机组列表</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a th:href="@{/publics/time-list.html}" target="right"> <span
-                                                    class="nav-label">2号</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a th:href="@{/publics/time-list.html}" target="right"> <span
-                                                    class="nav-label">3号</span>
+                                            <a th:href="@{/unitcomparison/init/0}" target="right">
+                                                <i class="fa  fa-line-chart"></i>
+                                                <span class="nav-label">机组对比</span>
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="ji-list.html" target="right"> <span class="nav-label">机组能耗分析</span><span
-                                            class="fa arrow"></span> </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="ji-list.html" target="right"> <i class="fa  fa-gear "></i><span class="nav-label">换热站能耗KPI指标管理</span><span
-                                    class="fa arrow"></span> </a>
-                            <ul class="nav nav-second-level collapse">
-                                <li>
-                                    <a th:href="@{/publics/jizhun-list.html}" target="right"> <span
-                                            class="nav-label">换热站能耗KPI指标管理</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a th:href="@{/publics/chaobiao-list.html}" target="right"> <span class="nav-label">超标管理</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="ji-list.html" target="right">
-                                <i class="fa  fa-gear "></i>
-                                <span class="nav-label">维护</span>
-                                <span class="fa arrow"></span>
-                            </a>
-                            <ul class="nav nav-second-level collapse">
-                                <shiro:hasPermission name="heat:init">
+                            </shiro:hasPermission>
+
+                            <li>
+                                <a href="index.html#"><i class="fa  fa-gear "></i> <span
+                                        class="nav-label">业务功能</span><span
+                                        class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <shiro:hasPermission name="sjcx:init">
+                                        <li>
+                                            <a th:href="@{/sjcx/init}" target="right"> <span
+                                                    class="nav-label">数据查询</span> </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                    <shiro:hasPermission name="qxxx:init">
+                                        <li>
+                                            <a th:href="@{/qxxx/init}" target="right"> <span
+                                                    class="nav-label">气象信息</span>
+                                            </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="index.html#"><i class="fa  fa-gear "></i> <span
+                                        class="nav-label">热源能耗分析</span><span
+                                        class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <shiro:hasPermission name="rltj:init">
+                                        <li>
+                                            <a th:href="@{/rltj/init}" target="right"> <span
+                                                    class="nav-label">热量统计分析</span> </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                    <shiro:hasPermission name="sltj:init">
+                                        <li>
+                                            <a th:href="@{/sltj/init}" target="right"> <span
+                                                    class="nav-label">水量统计分析</span> </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                    <shiro:hasPermission name="dltj:init">
+                                        <li>
+                                            <a th:href="@{/dltj/init}" target="right"> <span
+                                                    class="nav-label">电量统计分析</span> </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                    <shiro:hasPermission name="sdrzh:init">
+                                        <li>
+                                            <a th:href="@{/sdrzh/init}" target="right"> <span
+                                                    class="nav-label">水电热综合统计分析</span>
+                                            </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                    <shiro:hasPermission name="sdrzz:init">
+                                        <li>
+                                            <a th:href="@{/sdrzz/init}" target="right"> <span
+                                                    class="nav-label">水电热站与站统计分析</span>
+                                            </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="index.html#"><i class="fa  fa-gear "></i> <span
+                                        class="nav-label">热源实时工况信息</span><span
+                                        class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <shiro:hasPermission name="ryssgk:init">
+                                        <li>
+                                            <a th:href="@{/ryssgk/init}" target="right"> <span class="nav-label">热源实时工况信息</span>
+                                            </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="index.html#"><i class="fa  fa-gear "></i> <span
+                                        class="nav-label">换热监控实时工况</span><span
+                                        class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <shiro:hasPermission name="hrjk:init">
+                                        <li>
+                                            <a th:href="@{/hrjk/init}" target="right"> <span
+                                                    class="nav-label">换热监控实时工况</span>
+                                            </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="index.html#"><i class="fa  fa-gear "></i> <span
+                                        class="nav-label">投诉报修信息</span><span
+                                        class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <shiro:hasPermission name="ts:init">
+                                        <li>
+                                            <a th:href="@{/ts/init}" target="right"> <span
+                                                    class="nav-label">投诉信息</span> </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                    <shiro:hasPermission name="bx:init">
+                                        <li>
+                                            <a th:href="@{/bx/init}" target="right"> <span
+                                                    class="nav-label">报修信息</span> </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="index.html#"><i class="fa  fa-user"></i> <span
+                                        class="nav-label">用户设置</span><span
+                                        class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <shiro:authenticated>
+                                        <li>
+                                            <a th:href="@{/people/toPassword}" target="right"> <span
+                                                    class="nav-label">密码修改</span> </a>
+                                        </li>
+                                    </shiro:authenticated>
+                                    <shiro:hasPermission name="people:init">
+                                        <li>
+                                            <a th:href="@{/people/init/0}" target="right">
+                                                <span class="nav-label">用户管理</span>
+                                            </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="index.html#"><i class="fa  fa-gear "></i> <span
+                                        class="nav-label">集成收费系统</span><span
+                                        class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <shiro:hasPermission name="yhcnfh:init">
+                                        <li>
+                                            <a th:href="@{/yhcnfh/init}" target="right"> <span class="nav-label">用户采暖负荷信息</span>
+                                            </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                    <shiro:hasPermission name="sf:init">
+                                        <li>
+                                            <a th:href="@{/sf/init}" target="right"> <span
+                                                    class="nav-label">收费信息</span> </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="index.html#"><i class="fa  fa-gear "></i> <span
+                                        class="nav-label">换热站成本营销分析</span><span
+                                        class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <shiro:hasPermission name="hrznhcbfx:init">
+                                        <li>
+                                            <a th:href="@{/hrznhcbfx/init}" target="right"> <span class="nav-label">换热站能耗成本分析</span>
+                                            </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                    <shiro:hasPermission name="yxcbfx:init">
+                                        <li>
+                                            <a th:href="@{/yxcbfx/init}" target="right"> <span
+                                                    class="nav-label">换热站营销分析</span> </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="index.html#"><i class="fa  fa-gear "></i> <span
+                                        class="nav-label">GIS系统</span><span
+                                        class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <shiro:hasPermission name="gis:init">
+                                        <li>
+                                            <a th:href="@{/gis/init}" target="right"> <span
+                                                    class="nav-label">GIS系统</span> </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="index.html#"><i class="fa  fa-gear "></i> <span
+                                        class="nav-label">换热站集合</span><span
+                                        class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level collapse">
+                                    <shiro:hasPermission name="heatattribute:init">
+                                        <li>
+                                            <a th:href="@{/heatattribute/init/0}" target="right"> <span
+                                                    class="nav-label">换热站属性集合</span>
+                                            </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                    <shiro:hasPermission name="hrznhfx:init">
+                                        <li>
+                                            <a th:href="@{/hrznhfx/init}" target="right"> <span class="nav-label">换热站能耗分析</span>
+                                            </a>
+                                        </li>
+                                    </shiro:hasPermission>
                                     <li>
-                                        <a th:href="@{/heat/init/0}" target="right"> <span
-                                                class="nav-label">换热站维护</span>
+                                        <a href="hrzmc.html" target="right"> <span class="nav-label">换热站能耗时间段分析</span>
+                                            <span
+                                                    class="fa arrow"></span>
                                         </a>
+                                        <ul class="nav nav-second-level collapse">
+                                            <li>
+                                                <a th:href="@{/publics/time-list.html}" target="right"> <span
+                                                        class="nav-label">1号</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a th:href="@{/publics/time-list.html}" target="right"> <span
+                                                        class="nav-label">2号</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a th:href="@{/publics/time-list.html}" target="right"> <span
+                                                        class="nav-label">3号</span>
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </li>
-                                </shiro:hasPermission>
-                                <shiro:hasPermission name="crew:init">
-                                    <li>
-                                        <a th:href="@{/crew/init/0}" target="right"> <span
-                                                class="nav-label">机组维护</span>
-                                        </a>
-                                    </li>
-                                </shiro:hasPermission>
-                            </ul>
-                        </li>
-                    </shiro:hasRole>
-                    <!--</shiro:lacksRole>-->
+                                    <shiro:hasPermission name="jznhfx:init">
+                                        <li>
+                                            <a th:href="@{/jznhfx/init}" target="right"> <span
+                                                    class="nav-label">机组能耗分析</span></a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="ji-list.html" target="right"> <i class="fa  fa-gear "></i><span
+                                        class="nav-label">换热站能耗KPI指标管理</span><span
+                                        class="fa arrow"></span> </a>
+                                <ul class="nav nav-second-level collapse">
+                                    <shiro:hasPermission name="kpi:init">
+                                        <li>
+                                            <a th:href="@{/kpi/init}" target="right"> <span class="nav-label">换热站能耗KPI指标管理</span>
+                                            </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                    <shiro:hasPermission name="cbgl:init">
+                                        <li>
+                                            <a th:href="@{/cbgl/init}" target="right"> <span
+                                                    class="nav-label">超标管理</span>
+                                            </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="ji-list.html" target="right">
+                                    <i class="fa  fa-gear "></i>
+                                    <span class="nav-label">维护</span>
+                                    <span class="fa arrow"></span>
+                                </a>
+                                <ul class="nav nav-second-level collapse">
+                                    <shiro:hasPermission name="heat:init">
+                                        <li>
+                                            <a th:href="@{/heat/init/0}" target="right"> <span
+                                                    class="nav-label">换热站维护</span>
+                                            </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                    <shiro:hasPermission name="crew:init">
+                                        <li>
+                                            <a th:href="@{/crew/init/0}" target="right"> <span
+                                                    class="nav-label">机组维护</span>
+                                            </a>
+                                        </li>
+                                    </shiro:hasPermission>
+                                </ul>
+                            </li>
+                            <!--</shiro:hasRole>-->
+                        </shiro:lacksRole>
+                    </shiro:lacksRole>
                     <!--//菜单盒子结束-->
                 </ul>
 
@@ -366,18 +415,18 @@
         <!--//此处为iframe开始-->
         <div class="wrapper wrapper-content animated fadeInRight" id="iframepage">
             <shiro:hasRole name="admin">
-                欢迎来到LD系统
+                可以在左侧添加管理员
             </shiro:hasRole>
-            <shiro:lacksRole name="admin">
+            <shiro:hasRole name="user">
                 <iframe th:src="@{/home/initSubpage}" id="iframeid" name="right" frameborder="no"
                         onchange="changeFrameHeight()"
                         scrolling="yes" width="100%" height="100%"></iframe>
-            </shiro:lacksRole>
+            </shiro:hasRole>
         </div>
         <!--//此处为iframe结束-->
         <div class="footer">
             <div class="pull-right">
-                LD <strong>2017</strong> .
+                2017 <strong>2017</strong> .
             </div>
             <div>
                 <strong></strong> &copy; 2017
