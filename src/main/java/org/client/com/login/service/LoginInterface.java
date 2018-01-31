@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@FeignClient(value = "http://192.168.1.102:9003/account", fallback = LoginFallBack.class)
+@FeignClient(value = "account", fallback = LoginFallBack.class)
 public interface LoginInterface {
     @RequestMapping(value = "/account/acc", method = RequestMethod.GET)
     ResponseResult<AccountModel> getAccount(@Param(value = "account") String account);
