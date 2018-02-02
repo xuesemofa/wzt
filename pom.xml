@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.consume.com</groupId>
-    <artifactId>cloudclient</artifactId>
+    <groupId>org.client.com</groupId>
+    <artifactId>client</artifactId>
     <packaging>jar</packaging>
     <!--<packaging>war</packaging>-->
     <version>0.0.1-SNAPSHOT</version>
@@ -190,7 +190,7 @@
     </dependencies>
 
     <build>
-        <finalName>cloudclient</finalName>
+        <finalName>client</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
