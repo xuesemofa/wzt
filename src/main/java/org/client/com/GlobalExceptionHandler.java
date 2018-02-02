@@ -19,8 +19,6 @@ import java.sql.SQLException;
 import java.util.Arrays;
 import java.util.Date;
 
-//import org.hibernate.JDBCException;
-
 /**
  * 全局异常处理
  * LD
