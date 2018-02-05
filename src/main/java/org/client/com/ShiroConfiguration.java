@@ -85,9 +85,7 @@ public class ShiroConfiguration {
         filterChainDefinitionMap.put("/font-awesome/**", "anon");
         filterChainDefinitionMap.put("/fonts/**", "anon");
         filterChainDefinitionMap.put("/img/**", "anon");
-//        filterChainDefinitionMap.put("/js/**", "anon");
-        filterChainDefinitionMap.put("/**/**.js", "anon");
-        filterChainDefinitionMap.put("/style/**", "anon");
+        filterChainDefinitionMap.put("/js/**", "anon");
         filterChainDefinitionMap.put("/loginIn", "anon");
         filterChainDefinitionMap.put("/defaultKaptcha", "anon");
         filterChainDefinitionMap.put("/index", "anon");

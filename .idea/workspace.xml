@@ -2,17 +2,1205 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="e48abde8-11c0-4635-9721-52ddabc04a23" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/regist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/table.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/doc/util.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/index2.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/css/patterns/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/css/patterns/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/css/patterns/header-profile-skin-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/css/patterns/header-profile-skin-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/css/patterns/header-profile-skin-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/css/patterns/header-profile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/css/patterns/shattered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/img/landing/avatar_all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/img/landing/header_one.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/img/landing/header_two.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/img/landing/word_map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/angular-translate/angular-translate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/angular/angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/bootstrap/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/bootstrap/ui-bootstrap-tpls-1.1.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/directives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/inspinia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/jquery/jquery-2.1.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/plugins/angular-idle/angular-idle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/plugins/jquery-ui/jquery-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/plugins/metisMenu/jquery.metisMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/plugins/oclazyload/dist/ocLazyLoad.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/plugins/pace/pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/plugins/slimscroll/jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/translations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/Angular/js/ui-router/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/back/register/register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/patterns/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/patterns/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/patterns/header-profile-skin-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/patterns/header-profile-skin-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/patterns/header-profile-skin-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/patterns/header-profile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/patterns/shattered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/blueimp/css/blueimp-gallery.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/blueimp/img/error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/blueimp/img/error.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/blueimp/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/blueimp/img/play-pause.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/blueimp/img/play-pause.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/blueimp/img/video-play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/blueimp/img/video-play.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/bootstrap-markdown/bootstrap-markdown.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/bootstrapTour/bootstrap-tour.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/c3/c3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/chartist/chartist.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/chosen/chosen-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/chosen/chosen-sprite@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/chosen/chosen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/clockpicker/clockpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/codemirror/ambiance.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/codemirror/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/colorpicker/bootstrap-colorpicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/cropper/cropper.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/dataTables/datatables.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/datapicker/datepicker3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/daterangepicker/daterangepicker-bs3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/dropzone/basic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/dropzone/dropzone.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/footable/fonts/footable.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/footable/fonts/footable.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/footable/fonts/footable.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/footable/fonts/footable.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/footable/footable.core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/fullcalendar/fullcalendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/fullcalendar/fullcalendar.print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/iCheck/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/iCheck/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/iCheck/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/images/bootstrap-colorpicker/alpha-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/images/bootstrap-colorpicker/alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/images/bootstrap-colorpicker/hue-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/images/bootstrap-colorpicker/hue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/images/bootstrap-colorpicker/saturation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/images/sprite-skin-flat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/images/spritemap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/images/spritemap@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/ionRangeSlider/ion.rangeSlider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jQueryUI/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jasny/jasny-bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jqGrid/ui.jqgrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jsTree/32px.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jsTree/40px.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jsTree/style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/jsTree/throbber.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/ladda/ladda-themeless.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/morris/morris-0.4.3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/nouslider/jquery.nouislider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/select2/select2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/slick/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/slick/fonts/slick.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/slick/fonts/slick.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/slick/fonts/slick.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/slick/fonts/slick.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/slick/slick-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/slick/slick.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/steps/jquery.steps.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/summernote/summernote-bs3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/summernote/summernote.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/sweetalert/sweetalert.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/switchery/switchery.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/toastr/toastr.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/plugins/touchspin/jquery.bootstrap-touchspin.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/email_templates/action.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/email_templates/alert.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/email_templates/billing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/email_templates/img/header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/email_templates/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/a1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/a2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/a3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/a4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/a5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/a6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/a7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/a8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/angular_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/dashbard4_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/dashbard4_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/email_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/email_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/email_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/16/Spain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/16/United-States.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Abkhazia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Afghanistan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Aland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Albania.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Algeria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/American-Samoa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Andorra.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Angola.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Anguilla.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Antarctica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Antigua-and-Barbuda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Argentina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Armenia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Aruba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Australia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Austria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Azerbaijan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Bahamas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Bahrain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Bangladesh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Barbados.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Basque-Country.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Belarus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Belgium.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Belize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Benin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Bermuda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Bhutan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Bolivia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Bosnia-and-Herzegovina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Botswana.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Brazil.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/British-Antarctic-Territory.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/British-Virgin-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Brunei.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Bulgaria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Burkina-Faso.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Burundi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Cambodia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Cameroon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Canada.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Canary-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Cape-Verde.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Cayman-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Central-African-Republic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Chad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Chile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/China.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Christmas-Island.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Cocos-Keeling-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Colombia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Commonwealth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Comoros.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Cook-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Costa-Rica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Cote-dIvoire.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Croatia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Cuba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Curacao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Cyprus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Czech-Republic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Democratic-Republic-of-the-Congo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Denmark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Djibouti.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Dominica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Dominican-Republic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/East-Timor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Ecuador.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Egypt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/El-Salvador.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/England.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Equatorial-Guinea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Eritrea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Estonia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Ethiopia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/European-Union.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Falkland-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Faroes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Fiji.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Finland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/France.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/French-Polynesia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/French-Southern-Territories.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Gabon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Gambia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Georgia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Germany.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Ghana.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Gibraltar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/GoSquared.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Greece.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Greenland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Grenada.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Guam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Guatemala.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Guernsey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Guinea-Bissau.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Guinea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Guyana.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Haiti.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Honduras.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Hong-Kong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Hungary.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Iceland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/India.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Indonesia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Iran.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Iraq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Ireland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Isle-of-Man.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Israel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Italy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Jamaica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Japan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Jersey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Jordan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Kazakhstan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Kenya.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Kiribati.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Kosovo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Kuwait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Kyrgyzstan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Laos.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Latvia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Lebanon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Lesotho.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Liberia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Libya.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Liechtenstein.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Lithuania.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Luxembourg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Macau.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Macedonia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Madagascar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Malawi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Malaysia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Maldives.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Mali.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Malta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Mars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Marshall-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Martinique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Mauritania.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Mauritius.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Mayotte.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Mexico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Micronesia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Moldova.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Monaco.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Mongolia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Montenegro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Montserrat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Morocco.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Mozambique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Myanmar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/NATO.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Nagorno-Karabakh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Namibia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Nauru.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Nepal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Netherlands-Antilles.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Netherlands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/New-Caledonia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/New-Zealand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Nicaragua.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Niger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Nigeria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Niue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Norfolk-Island.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/North-Korea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Northern-Cyprus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Northern-Mariana-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Norway.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Olympics.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Oman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Pakistan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Palau.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Palestine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Panama.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Papua-New-Guinea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Paraguay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Peru.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Philippines.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Pitcairn-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Poland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Portugal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Puerto-Rico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Qatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Red-Cross.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Republic-of-the-Congo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Romania.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Russia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Rwanda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Saint-Barthelemy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Saint-Helena.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Saint-Kitts-and-Nevis.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Saint-Lucia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Saint-Martin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Saint-Vincent-and-the-Grenadines.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Samoa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/San-Marino.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Sao-Tome-and-Principe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Saudi-Arabia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Scotland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Senegal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Serbia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Seychelles.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Sierra-Leone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Singapore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Slovakia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Slovenia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Solomon-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Somalia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Somaliland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/South-Africa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/South-Georgia-and-the-South-Sandwich-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/South-Korea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/South-Ossetia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/South-Sudan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Spain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Sri-Lanka.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Sudan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Suriname.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Swaziland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Sweden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Switzerland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Syria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Taiwan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Tajikistan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Tanzania.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Thailand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Togo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Tokelau.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Tonga.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Trinidad-and-Tobago.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Tunisia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Turkey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Turkmenistan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Turks-and-Caicos-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Tuvalu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/US-Virgin-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Uganda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Ukraine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/United-Arab-Emirates.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/United-Kingdom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/United-Nations.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/United-States.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Unknown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Uruguay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Uzbekistan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Vanuatu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Vatican-City.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Venezuela.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Vietnam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Wales.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Wallis-And-Futuna.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Western-Sahara.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Yemen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Zambia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/flags/32/Zimbabwe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/full_height.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/10s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/11s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/12s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/1s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/2s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/3s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/4s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/5s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/6s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/7s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/8s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/gallery/9s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/html_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/landing/avatar1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/landing/avatar2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/landing/avatar3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/landing/avatar_all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/landing/dashboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/landing/header_one.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/landing/header_two.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/landing/iphone.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/landing/laptop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/landing/perspective.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/landing/word_map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/meteor_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/mvc_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/off_canvas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/p1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/p2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/p3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/p_big1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/p_big2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/p_big3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/profile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/profile_big.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/profile_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/rails_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/img/zender_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/demo/chartjs-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/demo/flot-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/demo/morris-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/demo/peity-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/demo/rickshaw-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/demo/sparkline-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/inspinia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery-ui-1.10.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery-ui.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/blueimp/jquery.blueimp-gallery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/bootstrap-markdown/bootstrap-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/bootstrap-markdown/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/bootstrapTour/bootstrap-tour.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/c3/c3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/chartJs/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/chartist/chartist.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/chosen/chosen.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/clipboard/clipboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/clockpicker/clockpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/codemirror/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/codemirror/mode/javascript/javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/colorpicker/bootstrap-colorpicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/cropper/cropper.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/d3/d3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/dataTables/datatables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/datapicker/bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/daterangepicker/daterangepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/diff_match_patch/javascript/diff_match_patch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/dotdotdot/jquery.dotdotdot.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/dropzone/dropzone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/easypiechart/jquery.easypiechart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/flot/curvedLines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/flot/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/flot/jquery.flot.pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/flot/jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/flot/jquery.flot.spline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/flot/jquery.flot.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/flot/jquery.flot.time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/flot/jquery.flot.tooltip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/footable/footable.all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/fullcalendar/fullcalendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/fullcalendar/moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/gritter/images/gritter-light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/gritter/images/gritter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/gritter/images/ie-spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/gritter/jquery.gritter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/gritter/jquery.gritter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/i18next/i18next.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/iCheck/icheck.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/idle-timer/idle-timer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/jasny/jasny-bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/jeditable/jquery.jeditable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/jqGrid/i18n/grid.locale-en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/jqGrid/jquery.jqGrid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/jquery-ui/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/jsKnob/jquery.knob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/jsTree/jstree.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/ladda/ladda.jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/ladda/ladda.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/ladda/spin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/masonary/masonry.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/metisMenu/jquery.metisMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/morris/morris.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/morris/raphael-2.1.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/nestable/jquery.nestable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/nouslider/jquery.nouislider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/pace/pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/peity/jquery.peity.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/rickshaw/rickshaw.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/rickshaw/vendor/d3.v3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/select2/select2.full.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/slick/slick.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/slimscroll/jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/sparkline/jquery.sparkline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/staps/jquery.steps.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/summernote/summernote.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/sweetalert/sweetalert.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/switchery/switchery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/tinycon/tinycon.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/toastr/toastr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/touchspin/jquery.bootstrap-touchspin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/validate/jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/video/responsible-video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/js/plugins/wow/wow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/style/jquery-validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/style/js/add.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/style/js/jquery1.11.3-jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/style/js/js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/style/js2/bmap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/style/js2/china.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/style/js2/dataTool.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/style/js2/ecStat.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/style/js2/echarts-all-3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/style/js2/world.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/style/modify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/css/patterns/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/css/patterns/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/css/patterns/header-profile-skin-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/css/patterns/header-profile-skin-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/css/patterns/header-profile-skin-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/css/patterns/header-profile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/css/patterns/shattered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/img/landing/avatar_all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/img/landing/header_one.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/img/landing/header_two.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/img/landing/word_map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/angular-translate/angular-translate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/angular/angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/bootstrap/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/bootstrap/ui-bootstrap-tpls-1.1.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/directives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/inspinia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/jquery/jquery-2.1.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/plugins/angular-idle/angular-idle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/plugins/jquery-ui/jquery-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/plugins/metisMenu/jquery.metisMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/plugins/oclazyload/dist/ocLazyLoad.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/plugins/pace/pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/plugins/slimscroll/jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/translations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/Angular/js/ui-router/angular-ui-router.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/patterns/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/patterns/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/patterns/header-profile-skin-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/patterns/header-profile-skin-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/patterns/header-profile-skin-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/patterns/header-profile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/patterns/shattered.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/blueimp/css/blueimp-gallery.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/blueimp/img/error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/blueimp/img/error.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/blueimp/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/blueimp/img/play-pause.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/blueimp/img/play-pause.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/blueimp/img/video-play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/blueimp/img/video-play.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/bootstrap-markdown/bootstrap-markdown.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/bootstrapTour/bootstrap-tour.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/c3/c3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/chartist/chartist.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/chosen/chosen-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/chosen/chosen-sprite@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/chosen/chosen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/clockpicker/clockpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/codemirror/ambiance.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/codemirror/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/colorpicker/bootstrap-colorpicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/cropper/cropper.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/dataTables/datatables.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/datapicker/datepicker3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/daterangepicker/daterangepicker-bs3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/dropzone/basic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/dropzone/dropzone.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/footable/fonts/footable.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/footable/fonts/footable.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/footable/fonts/footable.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/footable/fonts/footable.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/footable/footable.core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/fullcalendar/fullcalendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/fullcalendar/fullcalendar.print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/iCheck/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/iCheck/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/iCheck/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/images/bootstrap-colorpicker/alpha-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/images/bootstrap-colorpicker/alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/images/bootstrap-colorpicker/hue-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/images/bootstrap-colorpicker/hue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/images/bootstrap-colorpicker/saturation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/images/sprite-skin-flat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/images/spritemap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/images/spritemap@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/ionRangeSlider/ion.rangeSlider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jQueryUI/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jasny/jasny-bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jqGrid/ui.jqgrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jsTree/32px.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jsTree/40px.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jsTree/style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/jsTree/throbber.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/ladda/ladda-themeless.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/morris/morris-0.4.3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/nouslider/jquery.nouislider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/select2/select2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/slick/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/slick/fonts/slick.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/slick/fonts/slick.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/slick/fonts/slick.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/slick/fonts/slick.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/slick/slick-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/slick/slick.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/steps/jquery.steps.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/summernote/summernote-bs3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/summernote/summernote.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/sweetalert/sweetalert.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/switchery/switchery.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/toastr/toastr.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/plugins/touchspin/jquery.bootstrap-touchspin.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/email_templates/action.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/email_templates/alert.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/email_templates/billing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/email_templates/img/header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/email_templates/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/a1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/a2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/a3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/a4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/a5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/a6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/a7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/a8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/angular_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/dashbard4_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/dashbard4_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/email_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/email_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/email_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/16/Spain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/16/United-States.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Abkhazia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Afghanistan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Aland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Albania.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Algeria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/American-Samoa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Andorra.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Angola.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Anguilla.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Antarctica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Antigua-and-Barbuda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Argentina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Armenia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Aruba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Australia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Austria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Azerbaijan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Bahamas.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Bahrain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Bangladesh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Barbados.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Basque-Country.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Belarus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Belgium.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Belize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Benin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Bermuda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Bhutan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Bolivia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Bosnia-and-Herzegovina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Botswana.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Brazil.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/British-Antarctic-Territory.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/British-Virgin-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Brunei.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Bulgaria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Burkina-Faso.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Burundi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Cambodia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Cameroon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Canada.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Canary-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Cape-Verde.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Cayman-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Central-African-Republic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Chad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Chile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/China.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Christmas-Island.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Cocos-Keeling-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Colombia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Commonwealth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Comoros.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Cook-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Costa-Rica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Cote-dIvoire.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Croatia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Cuba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Curacao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Cyprus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Czech-Republic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Democratic-Republic-of-the-Congo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Denmark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Djibouti.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Dominica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Dominican-Republic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/East-Timor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Ecuador.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Egypt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/El-Salvador.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/England.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Equatorial-Guinea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Eritrea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Estonia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Ethiopia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/European-Union.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Falkland-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Faroes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Fiji.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Finland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/France.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/French-Polynesia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/French-Southern-Territories.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Gabon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Gambia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Georgia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Germany.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Ghana.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Gibraltar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/GoSquared.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Greece.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Greenland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Grenada.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Guam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Guatemala.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Guernsey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Guinea-Bissau.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Guinea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Guyana.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Haiti.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Honduras.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Hong-Kong.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Hungary.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Iceland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/India.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Indonesia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Iran.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Iraq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Ireland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Isle-of-Man.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Israel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Italy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Jamaica.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Japan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Jersey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Jordan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Kazakhstan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Kenya.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Kiribati.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Kosovo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Kuwait.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Kyrgyzstan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Laos.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Latvia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Lebanon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Lesotho.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Liberia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Libya.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Liechtenstein.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Lithuania.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Luxembourg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Macau.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Macedonia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Madagascar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Malawi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Malaysia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Maldives.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Mali.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Malta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Mars.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Marshall-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Martinique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Mauritania.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Mauritius.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Mayotte.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Mexico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Micronesia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Moldova.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Monaco.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Mongolia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Montenegro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Montserrat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Morocco.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Mozambique.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Myanmar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/NATO.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Nagorno-Karabakh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Namibia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Nauru.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Nepal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Netherlands-Antilles.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Netherlands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/New-Caledonia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/New-Zealand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Nicaragua.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Niger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Nigeria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Niue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Norfolk-Island.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/North-Korea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Northern-Cyprus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Northern-Mariana-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Norway.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Olympics.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Oman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Pakistan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Palau.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Palestine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Panama.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Papua-New-Guinea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Paraguay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Peru.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Philippines.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Pitcairn-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Poland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Portugal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Puerto-Rico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Qatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Red-Cross.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Republic-of-the-Congo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Romania.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Russia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Rwanda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Saint-Barthelemy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Saint-Helena.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Saint-Kitts-and-Nevis.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Saint-Lucia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Saint-Martin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Saint-Vincent-and-the-Grenadines.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Samoa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/San-Marino.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Sao-Tome-and-Principe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Saudi-Arabia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Scotland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Senegal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Serbia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Seychelles.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Sierra-Leone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Singapore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Slovakia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Slovenia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Solomon-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Somalia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Somaliland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/South-Africa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/South-Georgia-and-the-South-Sandwich-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/South-Korea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/South-Ossetia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/South-Sudan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Spain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Sri-Lanka.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Sudan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Suriname.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Swaziland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Sweden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Switzerland.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Syria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Taiwan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Tajikistan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Tanzania.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Thailand.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Togo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Tokelau.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Tonga.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Trinidad-and-Tobago.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Tunisia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Turkey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Turkmenistan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Turks-and-Caicos-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Tuvalu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/US-Virgin-Islands.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Uganda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Ukraine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/United-Arab-Emirates.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/United-Kingdom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/United-Nations.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/United-States.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Unknown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Uruguay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Uzbekistan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Vanuatu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Vatican-City.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Venezuela.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Vietnam.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Wales.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Wallis-And-Futuna.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Western-Sahara.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Yemen.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Zambia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/flags/32/Zimbabwe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/full_height.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/10s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/11s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/12s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/1s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/2s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/3s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/4s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/5s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/6s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/7s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/8s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/gallery/9s.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/html_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/landing/avatar1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/landing/avatar2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/landing/avatar3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/landing/avatar_all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/landing/dashboard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/landing/header_one.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/landing/header_two.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/landing/iphone.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/landing/laptop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/landing/perspective.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/landing/word_map.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/meteor_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/mvc_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/off_canvas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/p1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/p2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/p3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/p_big1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/p_big2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/p_big3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/profile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/profile_big.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/profile_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/rails_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/img/zender_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/demo/chartjs-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/demo/flot-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/demo/morris-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/demo/peity-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/demo/rickshaw-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/demo/sparkline-demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/inspinia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-ui-1.10.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-ui.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/blueimp/jquery.blueimp-gallery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/bootstrap-markdown/bootstrap-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/bootstrap-markdown/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/bootstrapTour/bootstrap-tour.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/c3/c3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/chartJs/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/chartist/chartist.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/chosen/chosen.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/clipboard/clipboard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/clockpicker/clockpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/codemirror/mode/javascript/javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/colorpicker/bootstrap-colorpicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/cropper/cropper.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/d3/d3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/dataTables/datatables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/datapicker/bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/daterangepicker/daterangepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/diff_match_patch/javascript/diff_match_patch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/dotdotdot/jquery.dotdotdot.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/dropzone/dropzone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/easypiechart/jquery.easypiechart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/flot/curvedLines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/flot/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/flot/jquery.flot.pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/flot/jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/flot/jquery.flot.spline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/flot/jquery.flot.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/flot/jquery.flot.time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/flot/jquery.flot.tooltip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/footable/footable.all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/fullcalendar/fullcalendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/fullcalendar/moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/gritter/images/gritter-light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/gritter/images/gritter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/gritter/images/ie-spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/gritter/jquery.gritter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/gritter/jquery.gritter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/i18next/i18next.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/iCheck/icheck.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/idle-timer/idle-timer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jasny/jasny-bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jeditable/jquery.jeditable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jqGrid/i18n/grid.locale-en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jqGrid/jquery.jqGrid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jquery-ui/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jsKnob/jquery.knob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jsTree/jstree.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/ladda/ladda.jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/ladda/ladda.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/ladda/spin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/masonary/masonry.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/metisMenu/jquery.metisMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/morris/morris.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/morris/raphael-2.1.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/nestable/jquery.nestable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/nouslider/jquery.nouislider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/pace/pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/peity/jquery.peity.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/rickshaw/rickshaw.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/rickshaw/vendor/d3.v3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/select2/select2.full.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/slick/slick.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/slimscroll/jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/sparkline/jquery.sparkline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/staps/jquery.steps.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/summernote/summernote.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/sweetalert/sweetalert.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/switchery/switchery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/tinycon/tinycon.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/toastr/toastr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/touchspin/jquery.bootstrap-touchspin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/validate/jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/video/responsible-video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/js/plugins/wow/wow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/style/jquery-validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/style/js/add.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/style/js/jquery1.11.3-jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/style/js/js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/style/js2/bmap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/style/js2/china.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/style/js2/dataTool.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/style/js2/ecStat.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/style/js2/echarts-all-3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/style/js2/world.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/style/modify.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloudclient.iml" afterPath="$PROJECT_DIR$/client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client.log" afterPath="$PROJECT_DIR$/client.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap.js" afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-2.1.1.js" afterPath="$PROJECT_DIR$/target/classes/static/js/jquery-2.1.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/index.html" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +1263,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/util/sl4j/Sl4jToString.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/login/service/fallback/LoginFallBack.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/model/AccountModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/client/com/MyWebAppConfigurer.java" />
@@ -91,6 +1278,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/doc/regist.html" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/table.html" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/util.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
       </list>
     </option>
   </component>
@@ -179,8 +1368,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,6 +1394,61 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="fallback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -212,14 +1457,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,11 +1483,11 @@
       <recent name="org.consume.com.register.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\shengzhizhe\client\src\main\resources\static\js" />
+      <recent name="D:\shengzhizhe\client\src\main\resources\templates" />
+      <recent name="D:\shengzhizhe\client\src\main\resources\templates\home" />
+      <recent name="D:\shengzhizhe\client\src\main\resources\static" />
       <recent name="D:\8cloud\cloudclient\src\main\resources\static\js" />
-      <recent name="D:\8cloud\cloudclient\src\main\java\org\client\com\util\sl4j" />
-      <recent name="D:\8cloud\cloudclient\src\main\java\org\consume\com\util\email" />
-      <recent name="D:\8cloud\cloudclient" />
-      <recent name="D:\8cloud\cloudclient\src\main\java\org\consume\com\email\controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -258,7 +1502,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.client.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.client.com.Application" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="client" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -352,6 +1615,11 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -522,43 +1790,50 @@
       <option name="project" value="LOCAL" />
       <updated>1517536142017</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="添加几个页面">
+      <created>1517543387911</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1517543387911</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1940463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958376" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16097023" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39895833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -571,7 +1846,8 @@
     <MESSAGE value="用cookie实现验证码倒计时，防止刷新后从新计算时间" />
     <MESSAGE value="调整登录请求地址" />
     <MESSAGE value="增加全局异常处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加全局异常处理" />
+    <MESSAGE value="添加几个页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加几个页面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -580,48 +1856,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/util/Args.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/util/JackJson/JackJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/style/js/add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/style/js/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/back/register/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1431">
-          <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.11.RELEASE/spring-web-4.3.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -680,18 +1914,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2214">
-          <caret line="96" column="42" lean-forward="false" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/a1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/img/a1.jpg" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.11.RELEASE/spring-context-support-4.3.11.RELEASE.jar!/org/springframework/mail/javamail/MimeMessageHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -728,13 +1951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/email/controller/EmailController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -742,31 +1958,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/login/service/fallback/LoginFallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/model/AccountModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -819,32 +2014,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/jquery.cookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="115" column="32" lean-forward="true" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/jquery.cookie.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/register/service/RegisterInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/login/service/LoginInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -864,51 +2038,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/login/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1480">
-          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/util/email/EmailUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2953">
-          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="72" column="15" lean-forward="false" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="193" column="13" lean-forward="false" selection-start-line="193" selection-start-column="13" selection-end-line="193" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
-          <caret line="252" column="6" lean-forward="false" selection-start-line="252" selection-start-column="6" selection-end-line="252" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/doc/regist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="856">
           <caret line="47" column="6" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,14 +2049,143 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="856">
           <caret line="130" column="6" lean-forward="false" selection-start-line="130" selection-start-column="6" selection-end-line="130" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/MyShiroRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="73" column="13" lean-forward="true" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home/login.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="72" column="15" lean-forward="false" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/jquery-2.1.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="100" column="62" lean-forward="true" selection-start-line="100" selection-start-column="62" selection-end-line="100" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6804">
+          <caret line="252" column="6" lean-forward="false" selection-start-line="252" selection-start-column="6" selection-end-line="252" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4347">
+          <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/doc/util.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
+        <state relative-caret-position="12339">
           <caret line="457" column="6" lean-forward="false" selection-start-line="457" selection-start-column="6" selection-end-line="457" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="64" column="21" lean-forward="true" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/login/service/fallback/LoginFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/login/service/LoginInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/login/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/util/email/EmailUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1074">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/client/com/ShiroConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="81" column="60" lean-forward="true" selection-start-line="81" selection-start-column="60" selection-end-line="81" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/vue.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
       </provider>

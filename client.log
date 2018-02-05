@@ -11387,3 +11387,647 @@ org.springframework.beans.factory.BeanCreationNotAllowedException: Error creatin
 2018-01-29 19:31:03.828  INFO 6180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2018-01-29 19:36:03.834  INFO 6180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2018-01-29 19:41:03.917  INFO 6180 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 14:28:35.112  INFO 808 --- [restartedMain] org.client.com.Application               : No active profile set, falling back to default profiles: default
+2018-02-03 14:28:35.175  INFO 808 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@200e9bf4: startup date [Sat Feb 03 14:28:35 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@205f0188
+2018-02-03 14:28:37.593  INFO 808 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a5ebe849-28f9-39f4-a4ef-d3cca37ebaaa
+2018-02-03 14:28:37.624  INFO 808 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-03 14:28:37.640  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfiguration' of type [org.client.com.ShiroConfiguration$$EnhancerBySpringCGLIB$$62995921] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:37.780  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.498  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.client.com.Application.FeignClientSpecification' of type [org.springframework.cloud.netflix.feign.FeignClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.498  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'account.FeignClientSpecification' of type [org.springframework.cloud.netflix.feign.FeignClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.513  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.feign.FeignAutoConfiguration' of type [org.springframework.cloud.netflix.feign.FeignAutoConfiguration$$EnhancerBySpringCGLIB$$3c3d1185] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.529  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'feignContext' of type [org.springframework.cloud.netflix.feign.FeignContext] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.529  INFO 808 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3bd4c4ab: startup date [Sat Feb 03 14:28:38 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@200e9bf4
+2018-02-03 14:28:38.560  INFO 808 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-03 14:28:38.747  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'feign.client-org.springframework.cloud.netflix.feign.FeignClientProperties' of type [org.springframework.cloud.netflix.feign.FeignClientProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.763  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.feign.ribbon.FeignRibbonClientAutoConfiguration' of type [org.springframework.cloud.netflix.feign.ribbon.FeignRibbonClientAutoConfiguration$$EnhancerBySpringCGLIB$$77050b2a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.778  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'feignRequestOptions' of type [feign.Request$Options] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.794  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.feign.ribbon.HttpClientFeignLoadBalancedConfiguration' of type [org.springframework.cloud.netflix.feign.ribbon.HttpClientFeignLoadBalancedConfiguration$$EnhancerBySpringCGLIB$$47ca3e9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.856  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.netflix.ribbon.RibbonAutoConfiguration.RibbonClientSpecification' of type [org.springframework.cloud.netflix.ribbon.RibbonClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.856  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.netflix.ribbon.eureka.RibbonEurekaAutoConfiguration.RibbonClientSpecification' of type [org.springframework.cloud.netflix.ribbon.RibbonClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.872  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'ribbon.eager-load-org.springframework.cloud.netflix.ribbon.RibbonEagerLoadProperties' of type [org.springframework.cloud.netflix.ribbon.RibbonEagerLoadProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.888  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.ribbon.RibbonAutoConfiguration' of type [org.springframework.cloud.netflix.ribbon.RibbonAutoConfiguration$$EnhancerBySpringCGLIB$$c2130b0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.903  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'springClientFactory' of type [org.springframework.cloud.netflix.ribbon.SpringClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.903  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'cachingLBClientFactory' of type [org.springframework.cloud.netflix.feign.ribbon.CachingSpringLoadBalancerFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.934  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.feign.ribbon.HttpClientFeignLoadBalancedConfiguration$HttpClientFeignConfiguration' of type [org.springframework.cloud.netflix.feign.ribbon.HttpClientFeignLoadBalancedConfiguration$HttpClientFeignConfiguration$$EnhancerBySpringCGLIB$$340c1b49] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.950  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.httpclient.HttpClientConfiguration$ApacheHttpClientConfiguration' of type [org.springframework.cloud.commons.httpclient.HttpClientConfiguration$ApacheHttpClientConfiguration$$EnhancerBySpringCGLIB$$adbd9075] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.950  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'apacheHttpClientFactory' of type [org.springframework.cloud.commons.httpclient.DefaultApacheHttpClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.966  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'connManFactory' of type [org.springframework.cloud.commons.httpclient.DefaultApacheHttpClientConnectionManagerFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:38.981  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'feign.httpclient-org.springframework.cloud.netflix.feign.support.FeignHttpClientProperties' of type [org.springframework.cloud.netflix.feign.support.FeignHttpClientProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.168  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'connectionManager' of type [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.356  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'httpClient' of type [org.apache.http.impl.client.InternalHttpClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.356  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'feignClient' of type [org.springframework.cloud.netflix.feign.ribbon.LoadBalancerFeignClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.371  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.feign.FeignAutoConfiguration$HystrixFeignTargeterConfiguration' of type [org.springframework.cloud.netflix.feign.FeignAutoConfiguration$HystrixFeignTargeterConfiguration$$EnhancerBySpringCGLIB$$efa3cc77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.371  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'feignTargeter' of type [org.springframework.cloud.netflix.feign.HystrixTargeter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.574  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'application' of type [org.client.com.Application$$EnhancerBySpringCGLIB$$916b6840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.574  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'responseResult' of type [org.client.com.util.resultJson.ResponseResult] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.590  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'loginFallBack' of type [org.client.com.login.service.fallback.LoginFallBack] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.621  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.client.com.login.service.LoginInterface' of type [com.sun.proxy.$Proxy74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.621  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'kaptchaConfig' of type [org.client.com.KaptchaConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.636  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getDefaultKaptcha' of type [com.google.code.kaptcha.impl.DefaultKaptcha] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.636  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'loginController' of type [org.client.com.login.controller.LoginController] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.636  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myShiroRealm' of type [org.client.com.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.652  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.683  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:39.730  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:40.775  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e0e0ae2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:28:41.961  INFO 808 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8999 (http)
+2018-02-03 14:28:42.023  INFO 808 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-02-03 14:28:42.023  INFO 808 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-03 14:28:42.413  INFO 808 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-03 14:28:42.413  INFO 808 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7238 ms
+2018-02-03 14:28:43.209  INFO 808 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-03 14:28:43.224  INFO 808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-03 14:28:43.224  INFO 808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-03 14:28:43.224  INFO 808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-03 14:28:43.224  INFO 808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-03 14:28:43.224  INFO 808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'shirFilter' to: [/*]
+2018-02-03 14:28:44.878  WARN 808 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-02-03 14:28:44.878  INFO 808 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-02-03 14:28:44.878  WARN 808 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-02-03 14:28:44.878  INFO 808 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-02-03 14:28:45.533  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@200e9bf4: startup date [Sat Feb 03 14:28:35 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@205f0188
+2018-02-03 14:28:45.814  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/email/toemail]}" onto public org.client.com.util.resultJson.ResponseResult org.client.com.email.controller.EmailController.regitEmail(java.lang.String,java.lang.String)
+2018-02-03 14:28:45.814  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home/init]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.home.controller.HomeController.init() throws java.lang.Exception
+2018-02-03 14:28:45.814  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home/initSubpage]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.home.controller.HomeController.initSubpage()
+2018-02-03 14:28:45.814  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.index.IndexController.index()
+2018-02-03 14:28:45.814  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.index.IndexController.init()
+2018-02-03 14:28:45.814  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/defaultKaptcha]}" onto public void org.client.com.index.IndexController.defaultKaptcha(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-02-03 14:28:45.830  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/loginIn],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.login.controller.LoginController.loginIn(org.client.com.login.model.LoginModel,org.springframework.validation.BindingResult,javax.servlet.http.HttpServletRequest)
+2018-02-03 14:28:45.830  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET]}" onto public void org.client.com.login.controller.LoginController.logout()
+2018-02-03 14:28:45.830  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/toForgot],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.login.controller.LoginController.toForgot()
+2018-02-03 14:28:45.830  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/forgot],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.login.controller.LoginController.forgot(org.client.com.login.model.LoginModel,org.springframework.validation.BindingResult)
+2018-02-03 14:28:45.830  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.register.controller.RegisterController.register(org.client.com.register.model.RegisterModel,org.springframework.validation.BindingResult)
+2018-02-03 14:28:45.830  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register/yh],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.register.controller.RegisterController.init()
+2018-02-03 14:28:45.830  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register/registerOK],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.register.controller.RegisterController.registerOK()
+2018-02-03 14:28:45.830  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/publics/{view}],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.util.publics.PublicViewController.init(java.lang.String)
+2018-02-03 14:28:45.830  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-03 14:28:45.830  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-03 14:28:46.064  INFO 808 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-03 14:28:46.064  INFO 808 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-03 14:28:46.142  INFO 808 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+2018-02-03 14:28:46.251  INFO 808 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-03 14:28:49.196  INFO 808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-03 14:28:50.008  WARN 808 --- [restartedMain] arterDeprecationWarningAutoConfiguration : spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2018-02-03 14:28:50.117  INFO 808 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-03 14:28:50.132  INFO 808 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-02-03 14:28:50.132  INFO 808 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-02-03 14:28:50.132  INFO 808 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-02-03 14:28:50.148  INFO 808 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-02-03 14:28:50.164  INFO 808 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-02-03 14:28:50.179  INFO 808 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=200e9bf4,type=ConfigurationPropertiesRebinder]
+2018-02-03 14:28:50.335  INFO 808 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-02-03 14:28:50.351  INFO 808 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-02-03 14:28:50.413  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-02-03 14:28:50.632  INFO 808 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-02-03 14:28:50.632  INFO 808 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-02-03 14:28:51.240  INFO 808 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-02-03 14:28:51.240  INFO 808 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-02-03 14:28:51.614  INFO 808 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 14:28:51.739  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-02-03 14:28:51.739  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-02-03 14:28:51.739  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-02-03 14:28:51.739  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-02-03 14:28:51.739  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-02-03 14:28:51.739  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-02-03 14:28:51.739  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-02-03 14:28:53.953 ERROR 808 --- [restartedMain] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1022) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:936) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:412) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:267) [eureka-client-1.7.0.jar:1.7.0]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:61) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:261) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$e849a74d.CGLIB$eurekaClient$1(<generated>) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$e849a74d$$FastClassBySpringCGLIB$$74dd2da0.invoke(<generated>) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$e849a74d.eurekaClient(<generated>) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:379) [spring-cloud-context-1.3.0.BUILD-SNAPSHOT.jar:1.3.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:181) [spring-cloud-context-1.3.0.BUILD-SNAPSHOT.jar:1.3.0.BUILD-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) [spring-aop-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:166) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:155) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:56) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:37) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:80) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:175) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:50) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:348) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:151) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:114) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:880) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.client.com.Application.main(Application.java:34) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_151]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_151]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_151]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_151]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_151]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:120) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient-4.5.2.jar:4.5.2]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 73 common frames omitted
+
+2018-02-03 14:28:53.968  WARN 808 --- [restartedMain] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2018-02-03 14:28:53.968 ERROR 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENT/192.168.1.180:8999 - was unable to refresh its cache! status = Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1022) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:936) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:412) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:267) [eureka-client-1.7.0.jar:1.7.0]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:61) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:261) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$e849a74d.CGLIB$eurekaClient$1(<generated>) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$e849a74d$$FastClassBySpringCGLIB$$74dd2da0.invoke(<generated>) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-4.3.6.RELEASE.jar:4.3.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$e849a74d.eurekaClient(<generated>) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:379) [spring-cloud-context-1.3.0.BUILD-SNAPSHOT.jar:1.3.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:181) [spring-cloud-context-1.3.0.BUILD-SNAPSHOT.jar:1.3.0.BUILD-SNAPSHOT]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) [spring-aop-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:166) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:155) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:56) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:37) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:80) [spring-cloud-netflix-eureka-client-1.4.0.BUILD-SNAPSHOT.jar:1.4.0.BUILD-SNAPSHOT]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:175) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:50) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:348) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:151) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:114) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:880) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.client.com.Application.main(Application.java:34) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+
+2018-02-03 14:28:53.984  WARN 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
+2018-02-03 14:28:53.984  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-02-03 14:28:53.984  INFO 808 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-02-03 14:28:54.000  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1517639334000 with initial instances count: 0
+2018-02-03 14:28:54.078  INFO 808 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application client with eureka with status UP
+2018-02-03 14:28:54.078  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1517639334078, current=UP, previous=STARTING]
+2018-02-03 14:28:54.093  INFO 808 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-02-03 14:28:54.156  INFO 808 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENT/192.168.1.180:8999: registering service...
+2018-02-03 14:28:54.452  INFO 808 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8999 (http)
+2018-02-03 14:28:54.452  INFO 808 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8999
+2018-02-03 14:28:54.468  INFO 808 --- [restartedMain] org.client.com.Application               : Started Application in 23.552 seconds (JVM running for 26.525)
+2018-02-03 14:28:56.412 ERROR 808 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:807) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88) [eureka-client-1.7.0.jar:1.7.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_151]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_151]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_151]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_151]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_151]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_151]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:120) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:117) ~[httpclient-4.5.2.jar:4.5.2]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient-4.5.2.jar:4.5.2]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 common frames omitted
+
+2018-02-03 14:28:56.427  WARN 808 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2018-02-03 14:28:56.427  WARN 808 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENT/192.168.1.180:8999 - registration failed Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:807) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104) [eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88) [eureka-client-1.7.0.jar:1.7.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2018-02-03 14:28:56.427  WARN 808 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:807) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104) ~[eureka-client-1.7.0.jar:1.7.0]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88) [eureka-client-1.7.0.jar:1.7.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_151]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_151]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2018-02-03 14:29:23.989  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-02-03 14:29:23.989  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-02-03 14:29:23.989  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-02-03 14:29:23.989  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-02-03 14:29:23.989  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-02-03 14:29:23.989  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-02-03 14:29:23.989  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-02-03 14:29:25.955  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-02-03 14:29:26.356  INFO 808 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENT/192.168.1.180:8999 - Re-registering apps/CLIENT
+2018-02-03 14:29:26.357  INFO 808 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENT/192.168.1.180:8999: registering service...
+2018-02-03 14:29:26.448  INFO 808 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENT/192.168.1.180:8999: registering service...
+2018-02-03 14:29:26.680  INFO 808 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENT/192.168.1.180:8999 - registration status: 204
+2018-02-03 14:29:26.682  INFO 808 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENT/192.168.1.180:8999 - registration status: 204
+2018-02-03 14:29:43.944  INFO 808 --- [http-nio-8999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-03 14:29:43.945  INFO 808 --- [http-nio-8999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-03 14:29:44.129  INFO 808 --- [http-nio-8999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 184 ms
+2018-02-03 14:29:56.354  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-02-03 14:29:56.356  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-02-03 14:29:56.357  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-02-03 14:29:56.357  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-02-03 14:29:56.357  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-02-03 14:29:56.357  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2018-02-03 14:29:56.357  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-02-03 14:29:56.435  INFO 808 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-02-03 14:33:51.755  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 14:37:19.423  INFO 808 --- [Thread-10] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@205f0188: startup date [Sat Feb 03 14:28:33 CST 2018]; root of context hierarchy
+2018-02-03 14:37:19.427  INFO 808 --- [Thread-10] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@200e9bf4: startup date [Sat Feb 03 14:28:35 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@205f0188
+2018-02-03 14:37:19.430  INFO 808 --- [Thread-10] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application client with eureka with status DOWN
+2018-02-03 14:37:19.431  WARN 808 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1517639839431, current=DOWN, previous=UP]
+2018-02-03 14:37:19.436  INFO 808 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENT/192.168.1.180:8999: registering service...
+2018-02-03 14:37:19.437  INFO 808 --- [Thread-10] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-02-03 14:37:19.457  INFO 808 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-03 14:37:19.478  INFO 808 --- [Thread-10] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2018-02-03 14:37:19.483  INFO 808 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-02-03 14:37:19.485  INFO 808 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2018-02-03 14:37:19.500  INFO 808 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENT/192.168.1.180:8999 - deregister  status: 200
+2018-02-03 14:37:19.520  INFO 808 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-02-03 14:37:19.802  WARN 808 --- [Thread-10] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-02-03 14:37:19.804  INFO 808 --- [Thread-10] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-02-03 14:37:19.857  INFO 808 --- [Thread-10] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3bd4c4ab: startup date [Sat Feb 03 14:28:38 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@200e9bf4
+2018-02-03 14:37:19.861  WARN 808 --- [Thread-10] s.c.a.AnnotationConfigApplicationContext : Exception thrown from ApplicationListener handling ContextClosedEvent
+
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:216) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:283) ~[spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253) ~[spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:177) ~[spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:140) ~[spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:399) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76) [spring-cloud-context-1.3.0.BUILD-SNAPSHOT.jar:1.3.0.BUILD-SNAPSHOT]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:272) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968) [spring-beans-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1006) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.boot.builder.ParentContextCloserApplicationListener$ContextCloserListener.onApplicationEvent(ParentContextCloserApplicationListener.java:102) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.builder.ParentContextCloserApplicationListener$ContextCloserListener.onApplicationEvent(ParentContextCloserApplicationListener.java:86) [spring-boot-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958) [spring-context-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.boot.devtools.restart.Restarter.stop(Restarter.java:321) [spring-boot-devtools-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.devtools.restart.Restarter$2.call(Restarter.java:258) [spring-boot-devtools-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.devtools.restart.Restarter$2.call(Restarter.java:254) [spring-boot-devtools-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+	at org.springframework.boot.devtools.restart.Restarter$LeakSafeThread.run(Restarter.java:627) [spring-boot-devtools-1.5.1.RELEASE.jar:1.5.1.RELEASE]
+
+2018-02-03 14:37:20.140  INFO 808 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENT/192.168.1.180:8999 - registration status: 204
+2018-02-03 14:37:23.278  INFO 808 --- [restartedMain] org.client.com.Application               : No active profile set, falling back to default profiles: default
+2018-02-03 14:37:23.283  INFO 808 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3fccdad1: startup date [Sat Feb 03 14:37:23 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2a2579eb
+2018-02-03 14:37:24.961  INFO 808 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a5ebe849-28f9-39f4-a4ef-d3cca37ebaaa
+2018-02-03 14:37:24.987  INFO 808 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-03 14:37:25.002  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfiguration' of type [org.client.com.ShiroConfiguration$$EnhancerBySpringCGLIB$$62995921] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.013  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.048  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.client.com.Application.FeignClientSpecification' of type [org.springframework.cloud.netflix.feign.FeignClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.050  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'account.FeignClientSpecification' of type [org.springframework.cloud.netflix.feign.FeignClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.051  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.feign.FeignAutoConfiguration' of type [org.springframework.cloud.netflix.feign.FeignAutoConfiguration$$EnhancerBySpringCGLIB$$3c3d1185] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.053  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'feignContext' of type [org.springframework.cloud.netflix.feign.FeignContext] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.055  INFO 808 --- [restartedMain] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@49e5e91e: startup date [Sat Feb 03 14:37:25 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3fccdad1
+2018-02-03 14:37:25.120  INFO 808 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-03 14:37:25.206  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'feign.client-org.springframework.cloud.netflix.feign.FeignClientProperties' of type [org.springframework.cloud.netflix.feign.FeignClientProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.211  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.feign.ribbon.FeignRibbonClientAutoConfiguration' of type [org.springframework.cloud.netflix.feign.ribbon.FeignRibbonClientAutoConfiguration$$EnhancerBySpringCGLIB$$77050b2a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.212  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'feignRequestOptions' of type [feign.Request$Options] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.216  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.feign.ribbon.HttpClientFeignLoadBalancedConfiguration' of type [org.springframework.cloud.netflix.feign.ribbon.HttpClientFeignLoadBalancedConfiguration$$EnhancerBySpringCGLIB$$47ca3e9f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.221  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.netflix.ribbon.RibbonAutoConfiguration.RibbonClientSpecification' of type [org.springframework.cloud.netflix.ribbon.RibbonClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.222  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'default.org.springframework.cloud.netflix.ribbon.eureka.RibbonEurekaAutoConfiguration.RibbonClientSpecification' of type [org.springframework.cloud.netflix.ribbon.RibbonClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.225  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'ribbon.eager-load-org.springframework.cloud.netflix.ribbon.RibbonEagerLoadProperties' of type [org.springframework.cloud.netflix.ribbon.RibbonEagerLoadProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.226  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.ribbon.RibbonAutoConfiguration' of type [org.springframework.cloud.netflix.ribbon.RibbonAutoConfiguration$$EnhancerBySpringCGLIB$$c2130b0b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.226  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'springClientFactory' of type [org.springframework.cloud.netflix.ribbon.SpringClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.227  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'cachingLBClientFactory' of type [org.springframework.cloud.netflix.feign.ribbon.CachingSpringLoadBalancerFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.231  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.feign.ribbon.HttpClientFeignLoadBalancedConfiguration$HttpClientFeignConfiguration' of type [org.springframework.cloud.netflix.feign.ribbon.HttpClientFeignLoadBalancedConfiguration$HttpClientFeignConfiguration$$EnhancerBySpringCGLIB$$340c1b49] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.233  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.commons.httpclient.HttpClientConfiguration$ApacheHttpClientConfiguration' of type [org.springframework.cloud.commons.httpclient.HttpClientConfiguration$ApacheHttpClientConfiguration$$EnhancerBySpringCGLIB$$adbd9075] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.234  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'apacheHttpClientFactory' of type [org.springframework.cloud.commons.httpclient.DefaultApacheHttpClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.236  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'connManFactory' of type [org.springframework.cloud.commons.httpclient.DefaultApacheHttpClientConnectionManagerFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.241  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'feign.httpclient-org.springframework.cloud.netflix.feign.support.FeignHttpClientProperties' of type [org.springframework.cloud.netflix.feign.support.FeignHttpClientProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.242  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'connectionManager' of type [org.apache.http.impl.conn.PoolingHttpClientConnectionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.249  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'httpClient' of type [org.apache.http.impl.client.InternalHttpClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.250  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'feignClient' of type [org.springframework.cloud.netflix.feign.ribbon.LoadBalancerFeignClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.252  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.netflix.feign.FeignAutoConfiguration$HystrixFeignTargeterConfiguration' of type [org.springframework.cloud.netflix.feign.FeignAutoConfiguration$HystrixFeignTargeterConfiguration$$EnhancerBySpringCGLIB$$efa3cc77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.253  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'feignTargeter' of type [org.springframework.cloud.netflix.feign.HystrixTargeter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.268  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'application' of type [org.client.com.Application$$EnhancerBySpringCGLIB$$916b6840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.273  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'responseResult' of type [org.client.com.util.resultJson.ResponseResult] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.274  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'loginFallBack' of type [org.client.com.login.service.fallback.LoginFallBack] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.280  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.client.com.login.service.LoginInterface' of type [com.sun.proxy.$Proxy129] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.289  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'kaptchaConfig' of type [org.client.com.KaptchaConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.290  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getDefaultKaptcha' of type [com.google.code.kaptcha.impl.DefaultKaptcha] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.292  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'loginController' of type [org.client.com.login.controller.LoginController] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.293  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myShiroRealm' of type [org.client.com.MyShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.294  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.304  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.309  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:25.369  INFO 808 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e0e0ae2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-03 14:37:26.081  INFO 808 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8999 (http)
+2018-02-03 14:37:26.081  INFO 808 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-02-03 14:37:26.082  INFO 808 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-03 14:37:26.108  INFO 808 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-03 14:37:26.109  INFO 808 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2826 ms
+2018-02-03 14:37:26.595  INFO 808 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-03 14:37:26.596  INFO 808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-03 14:37:26.596  INFO 808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-03 14:37:26.596  INFO 808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-03 14:37:26.596  INFO 808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-03 14:37:26.596  INFO 808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'shirFilter' to: [/*]
+2018-02-03 14:37:27.975  WARN 808 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-02-03 14:37:27.975  INFO 808 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-02-03 14:37:28.362  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3fccdad1: startup date [Sat Feb 03 14:37:23 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2a2579eb
+2018-02-03 14:37:28.477  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/email/toemail]}" onto public org.client.com.util.resultJson.ResponseResult org.client.com.email.controller.EmailController.regitEmail(java.lang.String,java.lang.String)
+2018-02-03 14:37:28.480  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home/init]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.home.controller.HomeController.init() throws java.lang.Exception
+2018-02-03 14:37:28.480  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/home/initSubpage]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.home.controller.HomeController.initSubpage()
+2018-02-03 14:37:28.481  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.index.IndexController.index()
+2018-02-03 14:37:28.482  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.index.IndexController.init()
+2018-02-03 14:37:28.482  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/defaultKaptcha]}" onto public void org.client.com.index.IndexController.defaultKaptcha(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-02-03 14:37:28.484  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/loginIn],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.login.controller.LoginController.loginIn(org.client.com.login.model.LoginModel,org.springframework.validation.BindingResult,javax.servlet.http.HttpServletRequest)
+2018-02-03 14:37:28.485  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/logout],methods=[GET]}" onto public void org.client.com.login.controller.LoginController.logout()
+2018-02-03 14:37:28.485  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/toForgot],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.login.controller.LoginController.toForgot()
+2018-02-03 14:37:28.485  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/forgot],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.login.controller.LoginController.forgot(org.client.com.login.model.LoginModel,org.springframework.validation.BindingResult)
+2018-02-03 14:37:28.486  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register/register],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.register.controller.RegisterController.register(org.client.com.register.model.RegisterModel,org.springframework.validation.BindingResult)
+2018-02-03 14:37:28.487  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register/yh],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.register.controller.RegisterController.init()
+2018-02-03 14:37:28.487  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/register/registerOK],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.register.controller.RegisterController.registerOK()
+2018-02-03 14:37:28.488  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/publics/{view}],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView org.client.com.util.publics.PublicViewController.init(java.lang.String)
+2018-02-03 14:37:28.490  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-03 14:37:28.491  INFO 808 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-03 14:37:28.684  INFO 808 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-03 14:37:28.685  INFO 808 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-03 14:37:28.748  INFO 808 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+2018-02-03 14:37:28.814  INFO 808 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-03 14:37:30.547  INFO 808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-02-03 14:37:31.051  WARN 808 --- [restartedMain] arterDeprecationWarningAutoConfiguration : spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2018-02-03 14:37:31.154  INFO 808 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-03 14:37:31.159  INFO 808 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-02-03 14:37:31.160  INFO 808 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-02-03 14:37:31.162  INFO 808 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-02-03 14:37:31.169  INFO 808 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-02-03 14:37:31.178  INFO 808 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-02-03 14:37:31.184  INFO 808 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=3fccdad1,type=ConfigurationPropertiesRebinder]
+2018-02-03 14:37:31.318  INFO 808 --- [restartedMain] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-02-03 14:37:31.322  INFO 808 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-02-03 14:37:31.334  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-02-03 14:37:31.369  INFO 808 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-02-03 14:37:31.370  INFO 808 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-02-03 14:37:31.370  INFO 808 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-02-03 14:37:31.370  INFO 808 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-02-03 14:37:31.511  INFO 808 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 14:37:31.564  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-02-03 14:37:31.564  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-02-03 14:37:31.564  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-02-03 14:37:31.565  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-02-03 14:37:31.565  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-02-03 14:37:31.565  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-02-03 14:37:31.565  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-02-03 14:37:31.595  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-02-03 14:37:31.596  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-02-03 14:37:31.597  INFO 808 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-02-03 14:37:31.598  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1517639851598 with initial instances count: 1
+2018-02-03 14:37:31.666  INFO 808 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application client with eureka with status UP
+2018-02-03 14:37:31.666  INFO 808 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1517639851666, current=UP, previous=STARTING]
+2018-02-03 14:37:31.673  INFO 808 --- [restartedMain] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-02-03 14:37:31.691  INFO 808 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8999 (http)
+2018-02-03 14:37:31.692  INFO 808 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8999
+2018-02-03 14:37:31.695  INFO 808 --- [restartedMain] org.client.com.Application               : Started Application in 9.078 seconds (JVM running for 543.738)
+2018-02-03 14:37:31.707  INFO 808 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENT/192.168.1.180:8999: registering service...
+2018-02-03 14:37:31.720  INFO 808 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CLIENT/192.168.1.180:8999 - registration status: 204
+2018-02-03 14:37:35.113  INFO 808 --- [http-nio-8999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-03 14:37:35.114  INFO 808 --- [http-nio-8999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-03 14:37:35.145  INFO 808 --- [http-nio-8999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2018-02-03 14:42:31.575  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 14:47:31.584  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 14:52:31.603  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 14:57:31.612  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 14:59:37.468  INFO 808 --- [hystrix-account-1] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2abcb000: startup date [Sat Feb 03 14:59:37 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3fccdad1
+2018-02-03 14:59:37.562  INFO 808 --- [hystrix-account-1] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-02-03 14:59:37.826  INFO 808 --- [hystrix-account-1] c.netflix.config.ChainedDynamicProperty  : Flipping property: account.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2018-02-03 14:59:37.881  INFO 808 --- [hystrix-account-1] c.n.u.concurrent.ShutdownEnabledTimer    : Shutdown hook installed for: NFLoadBalancer-PingTimer-account
+2018-02-03 14:59:37.924  INFO 808 --- [hystrix-account-1] c.netflix.loadbalancer.BaseLoadBalancer  : Client: account instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=account,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2018-02-03 14:59:37.939  INFO 808 --- [hystrix-account-1] c.n.l.DynamicServerListLoadBalancer      : Using serverListUpdater PollingServerListUpdater
+2018-02-03 14:59:37.945  INFO 808 --- [hystrix-account-1] c.n.l.DynamicServerListLoadBalancer      : DynamicServerListLoadBalancer for client account initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=account,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@1f7c0f42
+2018-02-03 15:02:31.620  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 15:07:31.628  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 15:12:31.637  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 15:17:31.646  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 15:22:31.656  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 15:27:31.678  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 15:32:31.687  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 15:37:31.695  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 15:42:31.703  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 15:47:31.712  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 15:52:31.721  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 15:57:31.731  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 16:02:31.739  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 16:07:31.747  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 16:12:31.756  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 16:17:31.764  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 16:22:31.772  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 16:27:31.781  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 16:32:31.789  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 16:37:31.797  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 16:42:31.806  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 16:47:31.814  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 16:52:31.822  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 16:57:31.832  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 17:02:31.841  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 17:07:31.850  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 17:12:31.859  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 17:17:31.867  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 17:22:31.875  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 17:27:31.883  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 17:32:31.891  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 17:37:31.900  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 17:42:31.908  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 17:47:31.917  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 17:52:31.929  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 17:57:31.938  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 18:02:31.946  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 18:07:31.954  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 18:12:31.963  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 18:17:31.971  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 18:22:31.979  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 18:27:31.987  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 18:32:31.995  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 18:37:32.003  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 18:42:32.012  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 18:47:32.020  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 18:52:32.028  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 18:57:32.037  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 19:02:32.046  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 19:07:32.054  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 19:12:32.063  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 19:17:32.071  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 19:22:32.079  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 19:27:32.087  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 19:32:32.095  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 19:37:32.103  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 19:42:32.112  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 19:47:32.120  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 19:52:32.128  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 19:57:32.136  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 20:02:32.144  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-02-03 20:07:32.152  INFO 808 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

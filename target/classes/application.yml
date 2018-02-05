@@ -70,4 +70,4 @@ imgType: jpg,png
 #全局上传下载读取文件路径设置
 filesPath: D:\\file\\
 #全局文件格式-多个用,(英文)隔开
-filesType: xlsx,docx
+filesType: xlsx
