@@ -79,6 +79,8 @@ public class ShiroConfiguration {
         // 拦截器.
         Map<String, String> filterChainDefinitionMap = new LinkedHashMap<String, String>();
         // 配置不会被拦截的链接 顺序判断
+        filterChainDefinitionMap.put("/loginregist/css/**", "anon");
+        filterChainDefinitionMap.put("/loginregist/img/**", "anon");
         filterChainDefinitionMap.put("/Angular/**", "anon");
         filterChainDefinitionMap.put("/css/**", "anon");
         filterChainDefinitionMap.put("/email_templates/**", "anon");

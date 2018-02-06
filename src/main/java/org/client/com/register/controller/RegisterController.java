@@ -34,12 +34,12 @@ public class RegisterController {
     public ModelAndView register(@Valid @ModelAttribute("model") RegisterModel model, BindingResult bindingResult) {
         //数据验证
         if (bindingResult.hasErrors())
-            return new ModelAndView("/register")
+            return new ModelAndView("/index")
                     .addObject("model", model)
                     .addObject("message", bindingResult.getFieldError().getDefaultMessage());
 //两次输入的密码是否一至
         if (!model.isPass())
-            return new ModelAndView("/register")
+            return new ModelAndView("/index")
                     .addObject("model", model)
                     .addObject("message", "两次输入的密码不一致");
 
@@ -53,7 +53,7 @@ public class RegisterController {
         if (result.isSuccess())
             return new ModelAndView(RedirectUtil.REDIRECT + "/register/registerOK");
         else
-            return new ModelAndView("/register")
+            return new ModelAndView("/index")
                     .addObject("model", model)
                     .addObject("message", result.getCode() == 501 ? "该账户已注册" : result.getMessage());
     }
