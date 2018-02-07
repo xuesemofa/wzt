@@ -10,6 +10,7 @@ import org.apache.shiro.subject.Subject;
 import org.client.com.api.AccountInterface;
 import org.client.com.login.model.LoginModel;
 import org.client.com.util.base64.Base64Util;
+import org.client.com.util.redirect.RedirectUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,9 +21,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
-import java.util.Map;
 
 /**
  * login
@@ -45,22 +44,13 @@ public class LoginController {
      */
     @PostMapping("/loginIn")
     public ModelAndView loginIn(
-            @Valid @ModelAttribute("model") LoginModel model,
-            BindingResult result, HttpServletRequest httpServletRequest) {
+            @Valid @ModelAttribute("form") LoginModel model,
+            BindingResult result) {
+        RedirectUtil redirectUtil = new RedirectUtil();
         if (result.hasErrors()) {
-            return new ModelAndView("/index").addObject("model", model)
-                    .addObject("errortext",
-                            result.getFieldError().getDefaultMessage());
+            return new ModelAndView(redirectUtil.getRedirect() + "/index")
+                    .addObject("message", result.getFieldError().getDefaultMessage());
         }
-
-        String captchaId = (String) httpServletRequest.getSession().getAttribute("vrifyCode");
-        String parameter = httpServletRequest.getParameter("vrifyCode");
-
-//        验证码判断
-//        if (!captchaId.equals(parameter)) {
-//            return new ModelAndView("/index").addObject("model", model)
-//                    .addObject("errortext", "验证码错误");
-//        } else {
 
         Subject subject = SecurityUtils.getSubject();
         String pwd = Base64Util.encode(model.getPassword());
@@ -68,28 +58,16 @@ public class LoginController {
                 model.getUsername(), pwd);
         try {
             subject.login(token);
-            return new ModelAndView("redirect:/home/init");
+            return new ModelAndView(redirectUtil.getRedirect() + "/home/init");
         } catch (UnknownAccountException lae) {
             token.clear();
-            return new ModelAndView("/index").addObject("model", model)
-                    .addObject("errortext", lae.getMessage());
+            return new ModelAndView(redirectUtil.getRedirect() + "/index")
+                    .addObject("message", lae.getMessage());
         } catch (AuthenticationException e) {
             token.clear();
-            return new ModelAndView("/index").addObject("model", model)
-                    .addObject("errortext", "用户或密码不正确");
+            return new ModelAndView(redirectUtil.getRedirect() + "/index")
+                    .addObject("message", "用户或密码不正确");
         }
-//        }
-
-    }
-
-    /**
-     * 获取当前登录的用户，主要用于shiro
-     *
-     * @return
-     */
-    public Map<String, Object> getLanders() {
-        Subject subject = SecurityUtils.getSubject();
-        return (Map<String, Object>) subject.getSession().getAttribute("map");
     }
 
     @GetMapping("/logout")

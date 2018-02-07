@@ -10,8 +10,8 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.apache.shiro.subject.Subject;
 import org.client.com.api.AccountInterface;
-import org.client.com.login.controller.LoginController;
 import org.client.com.login.model.LoginModel;
 import org.client.com.model.AccountModel;
 import org.client.com.util.resultJson.ResponseResult;
@@ -20,8 +20,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.annotation.Resource;
-import java.util.HashMap;
-import java.util.Map;
 
 public class MyShiroRealm extends AuthorizingRealm {
 
@@ -29,8 +27,6 @@ public class MyShiroRealm extends AuthorizingRealm {
 
     @Resource
     private AccountInterface service;
-    @Resource
-    private LoginController login;
 
     /**
      * 是权限控制 此方法调用 hasRole,hasPermission的时候才会进行回调.
@@ -45,17 +41,23 @@ public class MyShiroRealm extends AuthorizingRealm {
         // TODO Auto-generated method stub
 //        // 权限信息对象info,用来存放查出的用户的所有的角色（role）及权限（permission）
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
-        Map<String, Object> map = login.getLanders();
-        if (map == null)
+        Subject subject = SecurityUtils.getSubject();
+        String user = (String) subject.getSession().getAttribute("user");
+
+        if (user == null)
             return info;
-        if ((Integer) map.get("types") == 0) {
-            info.addRole("admin");
-        } else if ((Integer) map.get("types") == 1) {
-            info.addRole("admins");
-        } else {
-//            普通账户角色
-            info.addRole("user");
+
+        ResponseResult<AccountModel> result = service.getAccount(user);
+        if (result.isSuccess()) {
+            if (result.getData().getAcctype() == 0) {
+                info.addRole("admin");
+            } else if (result.getData().getAcctype() == 1) {
+                info.addRole("admins");
+            } else {
+                info.addRole("user");
+            }
         }
+
         return info;
     }
 
@@ -85,13 +87,7 @@ public class MyShiroRealm extends AuthorizingRealm {
             SimpleAuthenticationInfo info = new SimpleAuthenticationInfo(user, user.getPassword(), getName());
 // 当验证都通过后，把用户信息放在session里
             Session session = SecurityUtils.getSubject().getSession();
-            Map<String, Object> map = new HashMap<>();
-            map.put("account", user.getUsername());
-            String uuid = json.getString("uuid");
-            map.put("uuid", uuid);
-            int acctype = json.getInt("acctype");
-            map.put("types", acctype);
-            session.setAttribute("map", map);
+            session.setAttribute("user", user.getUsername());
             return info;
         } catch (Exception e) {
             throw new UnknownAccountException("用户或密码不正确!!!");

@@ -15,24 +15,27 @@ public class AccountFallBack implements AccountInterface {
     @Override
     public ResponseResult<AccountModel> getAccount(String account) {
         result.setSuccess(false);
-        result.setCode(404);
-        result.setMessage("账户服务断开");
+        result.setCode(-404);
+        result.setMessage("服务断开");
+        result.setData(null);
         return result;
     }
 
     @Override
     public ResponseResult getLanders(String id) {
         result.setSuccess(false);
-        result.setCode(404);
-        result.setMessage("账户服务断开");
+        result.setCode(-404);
+        result.setMessage("服务断开");
+        result.setData(null);
         return result;
     }
 
     @Override
     public ResponseResult register(AccountModel model) {
         result.setSuccess(false);
-        result.setCode(404);
-        result.setMessage("账户服务断开");
+        result.setCode(-404);
+        result.setMessage("服务断开");
+        result.setData(null);
         return result;
     }
 }
