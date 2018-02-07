@@ -1,14 +1,7 @@
 package org.client.com.util.scheduled;
 
-import org.client.com.util.date.Dates2;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Random;
 
 /**
  * 定时器
@@ -30,53 +23,27 @@ import java.util.Random;
  */
 @Component
 public class Scheduleds {
-    private final Logger log = LoggerFactory.getLogger(this.getClass());
-
-//    @Resource
-//    private UserService service;
 
     @Scheduled(cron = "0 0 12 * * ?")
     public void wf() {
-        //获取当前时间
-//        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
-//        log.info("该吃午饭了");
-
     }
 
     @Scheduled(cron = "0 0 18 * * ?")
     public void xb() {
-//        log.info("该下班了");
     }
 
     //    每分钟0秒执行
     @Scheduled(cron = "0 * * * * ?")
     public void fen() {
-        String[] str = {"煞笔", "狗日的", "滚蛋", "二货"};
-        Random random = new Random();
-        int i = random.nextInt(3);
-//        service.put("username", str[i], "account", "xuesemofa12345");
-//        log.info("整点报时");
     }
 
     //    每小时0分执行
     @Scheduled(cron = "0 0 * * * ?")
     public void xs() {
-//        log.info("整点报时");
     }
 
     //    每天0点执行
     @Scheduled(cron = "0 0 0 * * ?")
     public void ld() {
-        try {
-            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd ");
-//            Date date = sdf.parse("2017-09-19");
-//            int i = Dates.daysBetween(date, new Date());
-//            log.info("程序已进行了："+i+"天");
-            String password = Dates2.getDateString1(new Date());
-            password = "guanliyuan" + password;
-//            service.delGL(password);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 }

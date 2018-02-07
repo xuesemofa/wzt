@@ -36,19 +36,6 @@ public class Dates {
 
     }
 
-    public static void main(String[] args) throws ParseException {
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM");
-        String str1 = "2012-02";
-        String str2 = "2010-01";
-        Calendar bef = Calendar.getInstance();
-        Calendar aft = Calendar.getInstance();
-        bef.setTime(sdf.parse(str1));
-        aft.setTime(sdf.parse(str2));
-        int result = aft.get(Calendar.MONTH) - bef.get(Calendar.MONTH);
-        int month = (aft.get(Calendar.YEAR) - bef.get(Calendar.YEAR)) * 12;
-        Math.abs(month + result);
-    }
-
     /*=================================相差天数=====================================*/
     public static int daysBetween(Date early, Date late) {
 

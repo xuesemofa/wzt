@@ -46,17 +46,12 @@ public class EmailUtil {
             //设置velocity资源加载方式为file时的处理类
             properties.setProperty("file.resource.loader.class", "org.apache.velocity.runtime.resource.loader.FileResourceLoader");
             //实例化一个VelocityEngine对象
-            VelocityEngine velocityEngine = new VelocityEngine(properties);
             VelocityEngine velocity = new VelocityEngine();
             Map<String, Object> model = new HashedMap();
             model.put("yzm", "验证码");
             String text1 = VelocityEngineUtils.mergeTemplateIntoString(
                     velocity, "model.vm", "UTF-8", model);
-            message.setText(text1.toString(), true);
-//插入图片(背景图片)
-//            FileSystemResource img1 = new FileSystemResource(new File("a1.png"));
-//            FileSystemResource img1 = new FileSystemResource(new File("D:\\123.png"));
-//            message.addInline("backimg1", img1);
+            message.setText(text1, true);
             mailSender.send(mimeMessage);
             return true;
         } catch (Exception ex) {

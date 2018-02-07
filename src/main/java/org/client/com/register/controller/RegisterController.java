@@ -50,8 +50,9 @@ public class RegisterController {
         accountModel.setTimes(System.currentTimeMillis());
 
         ResponseResult result = registerInterface.register(accountModel);
+        RedirectUtil redirectUtil = new RedirectUtil();
         if (result.isSuccess())
-            return new ModelAndView(RedirectUtil.REDIRECT + "/register/registerOK");
+            return new ModelAndView(redirectUtil.getRedirect() + "/register/registerOK");
         else
             return new ModelAndView("/index")
                     .addObject("model", model)

@@ -1,5 +1,7 @@
 package org.client.com.util.jvm;
 
+import java.util.StringJoiner;
+
 public class Bytes {
     /**
      * 由于String.subString对汉字处理存在问题（把一个汉字视为一个字节)，因此在
@@ -11,11 +13,17 @@ public class Bytes {
      * @return
      */
     public static String substring(String src, int start_idx, int end_idx) {
-        byte[] b = src.getBytes();
-        String tgt = "";
-        for (int i = start_idx; i <= end_idx; i++) {
-            tgt += (char) b[i];
+        StringJoiner tgt = new StringJoiner("");
+        if (src != null && !src.isEmpty()) {
+            try {
+                byte[] b = src.getBytes("UTF-8");
+                for (int i = start_idx; i <= end_idx; i++) {
+                    tgt.add(String.valueOf((char) b[i]));
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
-        return tgt;
+        return tgt.toString();
     }
 }

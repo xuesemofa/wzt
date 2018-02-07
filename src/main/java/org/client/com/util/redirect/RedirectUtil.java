@@ -3,5 +3,9 @@ package org.client.com.util.redirect;
 import java.io.Serializable;
 
 public class RedirectUtil implements Serializable {
-    public static String REDIRECT = "redirect:";
+    final static String redirect = "redirect:";
+
+    public String getRedirect() {
+        return redirect;
+    }
 }

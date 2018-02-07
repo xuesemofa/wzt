@@ -41,37 +41,32 @@ public class Base64Util {
 
     /**
      * 功能：编码字符串
-     *
-     * @param data 源字符串
-     * @return String
-     * @author 宋立君
-     * @date 2014年07月03日
      */
     public static String encode(String data) {
-        return new String(encode(data.getBytes()));
+        try {
+            return new String(encode(data.getBytes("UTF-8")));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     /**
      * 功能：解码字符串
-     *
-     * @param data 源字符串
-     * @return String
-     * @author 宋立君
-     * @date 2014年07月03日
      */
     public static String decode(String data) {
-        return new String(decode(data.toCharArray()));
+        try {
+            return new String(decode(data.toCharArray()), "UTF-8");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     /**
      * 功能：编码byte[]
-     *
-     * @param data 源
-     * @return char[]
-     * @author 宋立君
-     * @date 2014年07月03日
      */
-    public static char[] encode(byte[] data) {
+    private static char[] encode(byte[] data) {
         char[] out = new char[((data.length + 2) / 3) * 4];
         for (int i = 0, index = 0; i < data.length; i += 3, index += 4) {
             boolean quad = false;
@@ -101,13 +96,8 @@ public class Base64Util {
 
     /**
      * 功能：解码
-     *
-     * @param data 编码后的字符数组
-     * @return byte[]
-     * @author 宋立君
-     * @date 2014年07月03日
      */
-    public static byte[] decode(char[] data) {
+    private static byte[] decode(char[] data) {
 
         int tempLen = data.length;
         for (int ix = 0; ix < data.length; ix++) {
@@ -161,10 +151,6 @@ public class Base64Util {
 
     /**
      * 功能：编码文件
-     *
-     * @param file 源文件
-     * @author 宋立君
-     * @date 2014年07月03日
      */
     public static void encode(File file) throws IOException {
         if (!file.exists()) {
@@ -179,11 +165,6 @@ public class Base64Util {
 
     /**
      * 功能：解码文件。
-     *
-     * @param file 源文件
-     * @throws IOException
-     * @author 宋立君
-     * @date 2014年07月03日
      */
     public static void decode(File file) throws IOException {
         if (!file.exists()) {
@@ -219,8 +200,7 @@ public class Base64Util {
                     fis.close();
                 if (is != null)
                     is.close();
-                if (baos != null)
-                    baos.close();
+                baos.close();
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -234,7 +214,8 @@ public class Base64Util {
         Reader fr = null;
         Reader in = null;
         try {
-            fr = new FileReader(file);
+            File file1 = new File(file, "UTF-8");
+            fr = new FileReader(file1);
             in = new BufferedReader(fr);
             int count = 0;
             char[] buf = new char[16384];
@@ -246,8 +227,7 @@ public class Base64Util {
 
         } finally {
             try {
-                if (caw != null)
-                    caw.close();
+                caw.close();
                 if (in != null)
                     in.close();
                 if (fr != null)
