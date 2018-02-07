@@ -11,7 +11,7 @@ public interface AccountInterface {
     @RequestLine("GET /account/acc?account={account}")
     ResponseResult<AccountModel> getAccount(@Param("account") String account);
 
-    @RequestLine("GET /test/id?id={id}")
+    @RequestLine("GET /account/id?id={id}")
     ResponseResult getById(@Param("id") String id);
 
     @Headers("Content-Type:application/json")

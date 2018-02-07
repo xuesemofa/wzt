@@ -26,7 +26,11 @@ public class AccountInterfaceTest {
 
     @Test
     public void test() {
-        ResponseResult result = anInterface.getById("测试");
-        System.out.println(result.toString());
+        try {
+            ResponseResult result = anInterface.getById("测试");
+            System.out.println(result.toString());
+        } catch (Exception e) {
+            System.out.println("接口断开");
+        }
     }
 }
