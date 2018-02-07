@@ -1,5 +1,6 @@
 package org.client.com.register.controller;
 
+import org.apache.shiro.SecurityUtils;
 import org.client.com.api.AccountInterface;
 import org.client.com.model.AccountModel;
 import org.client.com.register.model.RegisterModel;
@@ -7,7 +8,10 @@ import org.client.com.util.redirect.RedirectUtil;
 import org.client.com.util.resultJson.ResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.validation.Valid;
@@ -17,27 +21,30 @@ import javax.validation.Valid;
 public class RegisterController {
 
     @Autowired
-    private AccountInterface registerInterface;
+    private AccountInterface anInterface;
     @Autowired
     private ResponseResult result;
 
-    @RequestMapping(value = "/toRegister", method = RequestMethod.GET)
-    public ModelAndView init(@RequestParam(value = "message", required = false) String message) {
-        return new ModelAndView("/register")
-                .addObject("message", message == null ? "" : message);
+    @RequestMapping(value = "/toRegister")
+    public ModelAndView init() {
+        return new ModelAndView("/register");
     }
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)
-    public ModelAndView register(@Valid @ModelAttribute("form") RegisterModel model, BindingResult bindingResult) {
+    public ModelAndView register(@Valid @ModelAttribute("form") RegisterModel model,
+                                 BindingResult bindingResult) {
+        SecurityUtils.getSubject().getSession().setAttribute("message", "");
         RedirectUtil redirectUtil = new RedirectUtil();
         //数据验证
-        if (bindingResult.hasErrors())
-            return new ModelAndView(redirectUtil.getRedirect() + "/register/toRegister")
-                    .addObject("message", bindingResult.getFieldError().getDefaultMessage());
+        if (bindingResult.hasErrors()) {
+            SecurityUtils.getSubject().getSession().setAttribute("message", bindingResult.getFieldError().getDefaultMessage());
+            return new ModelAndView(redirectUtil.getRedirect() + "/register/toRegister");
+        }
 //两次输入的密码是否一至
-        if (!model.isPass())
-            return new ModelAndView(redirectUtil.getRedirect() + "/register/toRegister")
-                    .addObject("message", "两次输入的密码不一致");
+        if (!model.isPass()) {
+            SecurityUtils.getSubject().getSession().setAttribute("message", "两次输入的密码不一致");
+            return new ModelAndView(redirectUtil.getRedirect() + "/register/toRegister");
+        }
 
         AccountModel accountModel = new AccountModel();
         accountModel.setAccount(model.getAccount());
@@ -45,13 +52,14 @@ public class RegisterController {
         accountModel.setPassword(model.getPassword());
         accountModel.setTimes(System.currentTimeMillis());
 
-        ResponseResult result = registerInterface.register(accountModel);
+        ResponseResult result = anInterface.register(accountModel);
         if (result.isSuccess())
             return new ModelAndView(redirectUtil.getRedirect() + "/register/registerOK");
-        else
-            return new ModelAndView(redirectUtil.getRedirect() + "/register/toRegister")
-                    .addObject("message",
-                            result.getCode() == 501 ? "该账户已注册" : result.getMessage());
+        else {
+            SecurityUtils.getSubject().getSession().setAttribute("message",
+                    result.getCode() == 501 ? "该账户已注册" : result.getMessage());
+            return new ModelAndView(redirectUtil.getRedirect() + "/register/toRegister");
+        }
     }
 
     @RequestMapping(value = "/registerOK", method = RequestMethod.GET)
