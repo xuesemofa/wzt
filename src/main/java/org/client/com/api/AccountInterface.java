@@ -1,25 +1,20 @@
 package org.client.com.api;
 
+import feign.Headers;
 import feign.Param;
-import org.client.com.fallback.AccountFallBack;
+import feign.RequestLine;
 import org.client.com.model.AccountModel;
 import org.client.com.util.resultJson.ResponseResult;
-import org.springframework.cloud.netflix.feign.FeignClient;
-import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
-@FeignClient(url = "http://39.106.33.113:9002", fallback = AccountFallBack.class)
 public interface AccountInterface {
 
-    @RequestMapping(value = "/account/account/acc", method = RequestMethod.GET)
-    ResponseResult<AccountModel> getAccount(@Param(value = "account") String account);
+    @RequestLine("GET /account/acc?account={account}")
+    ResponseResult<AccountModel> getAccount(@Param("account") String account);
 
-    @RequestMapping(value = "/account/account/id", method = RequestMethod.GET)
-    ResponseResult getLanders(@Param(value = "id") String id);
+    @RequestLine("GET /test/id?id={id}")
+    ResponseResult getById(@Param("id") String id);
 
-    @RequestMapping(value = "/account/account/account",
-            method = RequestMethod.POST,
-            consumes = MediaType.APPLICATION_JSON_VALUE)
+    @Headers("Content-Type:application/json")
+    @RequestLine("POST /account/account")
     ResponseResult register(@Param("model") AccountModel model);
 }

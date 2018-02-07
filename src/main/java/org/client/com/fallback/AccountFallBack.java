@@ -22,7 +22,7 @@ public class AccountFallBack implements AccountInterface {
     }
 
     @Override
-    public ResponseResult getLanders(String id) {
+    public ResponseResult getById(String id) {
         result.setSuccess(false);
         result.setCode(-404);
         result.setMessage("服务断开");

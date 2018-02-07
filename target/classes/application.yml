@@ -45,6 +45,8 @@ feign:
   hystrix:
 #  开启熔断机制，默认是开启的
     enabled: true
+  httpclient:
+    enabled: true
 #    设置超时时间，防止首次调用出现服务宕机bug
   command:
     default:
