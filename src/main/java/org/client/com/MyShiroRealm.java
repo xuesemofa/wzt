@@ -10,9 +10,9 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.client.com.api.AccountInterface;
 import org.client.com.login.controller.LoginController;
 import org.client.com.login.model.LoginModel;
-import org.client.com.login.service.LoginInterface;
 import org.client.com.model.AccountModel;
 import org.client.com.util.resultJson.ResponseResult;
 import org.json.JSONObject;
@@ -28,7 +28,7 @@ public class MyShiroRealm extends AuthorizingRealm {
     private final static Logger logger = LoggerFactory.getLogger(MyShiroRealm.class);
 
     @Resource
-    private LoginInterface service;
+    private AccountInterface service;
     @Resource
     private LoginController login;
 

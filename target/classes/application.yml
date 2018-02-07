@@ -1,18 +1,18 @@
-﻿eureka:
-  instance:
-    prefer-ip-address: true
-    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:9001/eureka/
+﻿#eureka:
+#  instance:
+#    prefer-ip-address: true
+#    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:9001/eureka/
 #端口
 server: 
   port: 8999
   tomcat: 
     uri-encoding: UTF-8
 spring:
-  application:
-    name: client
+#  application:
+#    name: client
   thymeleaf:
       prefix: classpath:/templates
       encoding: UTF-8

@@ -7,8 +7,8 @@ import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.session.SessionException;
 import org.apache.shiro.subject.Subject;
+import org.client.com.api.AccountInterface;
 import org.client.com.login.model.LoginModel;
-import org.client.com.login.service.LoginInterface;
 import org.client.com.util.base64.Base64Util;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,7 +36,7 @@ public class LoginController {
     DefaultKaptcha defaultKaptcha;
 
     @Autowired
-    private LoginInterface loginInterface;
+    private AccountInterface loginInterface;
 
     /**
      * @param model  LoginModel

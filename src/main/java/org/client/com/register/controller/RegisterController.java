@@ -1,8 +1,8 @@
 package org.client.com.register.controller;
 
+import org.client.com.api.AccountInterface;
 import org.client.com.model.AccountModel;
 import org.client.com.register.model.RegisterModel;
-import org.client.com.register.service.RegisterInterface;
 import org.client.com.util.redirect.RedirectUtil;
 import org.client.com.util.resultJson.ResponseResult;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +20,7 @@ import javax.validation.Valid;
 public class RegisterController {
 
     @Autowired
-    private RegisterInterface registerInterface;
+    private AccountInterface registerInterface;
     @Autowired
     private ResponseResult result;
 

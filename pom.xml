@@ -46,20 +46,29 @@
             <version>2.2.2</version>
         </dependency>
 
-        <!--服务注册中心-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
-        </dependency>
+        <!--cloud配置-->
+        <!--&lt;!&ndash;服务注册中心&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.cloud</groupId>-->
+            <!--<artifactId>spring-cloud-starter-eureka</artifactId>-->
+        <!--</dependency>-->
+        <!--&lt;!&ndash;feign&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.cloud</groupId>-->
+            <!--<artifactId>spring-cloud-starter-feign</artifactId>-->
+        <!--</dependency>-->
+        <!--&lt;!&ndash;断路器，防止单个服务挂掉后影响整个系统&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.cloud</groupId>-->
+            <!--<artifactId>spring-cloud-starter-hystrix</artifactId>-->
+        <!--</dependency>-->
+
+        <!--单独-->
         <!--feign-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-feign</artifactId>
-        </dependency>
-        <!--断路器，防止单个服务挂掉后影响整个系统-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-hystrix</artifactId>
+            <version>1.2.2.RELEASE</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.yaml/snakeyaml -->
@@ -179,13 +188,6 @@
         <!--<artifactId>feign-httpclient</artifactId>-->
         <!--<version>${feign.version}</version>-->
         <!--</dependency>-->
-        <!-- https://mvnrepository.com/artifact/com.netflix.feign/feign-httpclient -->
-        <dependency>
-            <groupId>com.netflix.feign</groupId>
-            <artifactId>feign-httpclient</artifactId>
-            <version>8.18.0</version>
-        </dependency>
-
 
     </dependencies>
 
