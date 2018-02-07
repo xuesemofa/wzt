@@ -51,4 +51,14 @@ public class ResponseResult<Object> {
         this.data = data;
         this.code = code;
     }
+
+    @Override
+    public String toString() {
+        return "ResponseResult{" +
+                "success=" + success +
+                ", message='" + message + '\'' +
+                ", data=" + data +
+                ", code=" + code +
+                '}';
+    }
 }

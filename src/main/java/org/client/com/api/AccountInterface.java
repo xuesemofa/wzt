@@ -9,8 +9,9 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@FeignClient(value = "http://39.106.33.113:9002", name = "account", fallback = AccountFallBack.class)
+@FeignClient(url = "http://39.106.33.113:9002", fallback = AccountFallBack.class)
 public interface AccountInterface {
+
     @RequestMapping(value = "/account/account/acc", method = RequestMethod.GET)
     ResponseResult<AccountModel> getAccount(@Param(value = "account") String account);
 
