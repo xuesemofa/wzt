@@ -12,17 +12,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * 用于判断admin
+ * 用于判断user
  */
 @Configuration
-public class MyShiroRealm extends AuthorizingRealm {
+public class MyShiroRealm2 extends AuthorizingRealm {
 
     @Autowired
     private AccountInterface anInterface;
 
     @Override
     public String getName() {
-        return "admin";
+        return "user";
     }
 
     //认证

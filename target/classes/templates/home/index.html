@@ -39,16 +39,9 @@
                             <a data-toggle="dropdown" class="dropdown-toggle" href="full_height.html#">
                                 <span class="clear">
                                     <span class="block m-t-xs">
-                                        <strong class="font-bold" th:utext="${session.map.account}">管理员</strong>
                                     </span>
-                                    <span th:if="${session.map.types != 0}" class="text-muted text-xs block">菜单<b
-                                            class="caret"></b></span>
                                 </span>
                             </a>
-                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                                <li th:if="${session.map.types != 0}"><a th:href="@{'/user/'+${session.map.uuid}}"
-                                                                         target="right">个人资料</a></li>
-                            </ul>
                         </div>
                         <div class="logo-element">
                             ...
@@ -58,7 +51,7 @@
 
                     <shiro:hasRole name="admin">
                         <li>
-                            <a th:href="@{/admin/add}" target="right">添加管理员</a>
+                            <a th:href="@{/test/test}" target="right">test</a>
                         </li>
                         <!--<li>-->
                         <!--<a th:href="@{/jurisdiction/qxcsh}" target="right">权限初始化</a>-->

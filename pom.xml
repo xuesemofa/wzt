@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.client.com</groupId>
-    <artifactId>client</artifactId>
+    <artifactId>wzt</artifactId>
     <packaging>jar</packaging>
     <!--<packaging>war</packaging>-->
     <version>0.0.1-SNAPSHOT</version>
@@ -185,7 +185,7 @@
     </dependencies>
 
     <build>
-        <finalName>client</finalName>
+        <finalName>wzt</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

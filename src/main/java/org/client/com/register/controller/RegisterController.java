@@ -1,5 +1,6 @@
 package org.client.com.register.controller;
 
+import feign.FeignException;
 import org.apache.shiro.SecurityUtils;
 import org.client.com.api.AccountInterface;
 import org.client.com.model.AccountModel;
@@ -33,32 +34,36 @@ public class RegisterController {
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     public ModelAndView register(@Valid @ModelAttribute("form") RegisterModel model,
                                  BindingResult bindingResult) {
-        SecurityUtils.getSubject().getSession().setAttribute("message", "");
-        RedirectUtil redirectUtil = new RedirectUtil();
-        //数据验证
-        if (bindingResult.hasErrors()) {
-            SecurityUtils.getSubject().getSession().setAttribute("message", bindingResult.getFieldError().getDefaultMessage());
-            return new ModelAndView(redirectUtil.getRedirect() + "/register/toRegister");
-        }
+        try {
+            SecurityUtils.getSubject().getSession().setAttribute("message", "");
+            RedirectUtil redirectUtil = new RedirectUtil();
+            //数据验证
+            if (bindingResult.hasErrors()) {
+                SecurityUtils.getSubject().getSession().setAttribute("message", bindingResult.getFieldError().getDefaultMessage());
+                return new ModelAndView(redirectUtil.getRedirect() + "/register/toRegister");
+            }
 //两次输入的密码是否一至
-        if (!model.isPass()) {
-            SecurityUtils.getSubject().getSession().setAttribute("message", "两次输入的密码不一致");
-            return new ModelAndView(redirectUtil.getRedirect() + "/register/toRegister");
-        }
+            if (!model.isPass()) {
+                SecurityUtils.getSubject().getSession().setAttribute("message", "两次输入的密码不一致");
+                return new ModelAndView(redirectUtil.getRedirect() + "/register/toRegister");
+            }
 
-        AccountModel accountModel = new AccountModel();
-        accountModel.setAccount(model.getAccount());
-        accountModel.setAcctype(1);
-        accountModel.setPassword(model.getPassword());
-        accountModel.setTimes(System.currentTimeMillis());
+            AccountModel accountModel = new AccountModel();
+            accountModel.setAccount(model.getAccount());
+            accountModel.setAcctype(1);
+            accountModel.setPassword(model.getPassword());
+            accountModel.setTimes(System.currentTimeMillis());
 
-        ResponseResult result = anInterface.register(accountModel);
-        if (result.isSuccess())
-            return new ModelAndView(redirectUtil.getRedirect() + "/register/registerOK");
-        else {
-            SecurityUtils.getSubject().getSession().setAttribute("message",
-                    result.getCode() == 501 ? "该账户已注册" : result.getMessage());
-            return new ModelAndView(redirectUtil.getRedirect() + "/register/toRegister");
+            ResponseResult result = anInterface.register(accountModel);
+            if (result.isSuccess())
+                return new ModelAndView(redirectUtil.getRedirect() + "/register/registerOK");
+            else {
+                SecurityUtils.getSubject().getSession().setAttribute("message",
+                        result.getCode() == 501 ? "该账户已注册" : result.getMessage());
+                return new ModelAndView(redirectUtil.getRedirect() + "/register/toRegister");
+            }
+        } catch (FeignException f) {
+            return new ModelAndView("").addObject("服务断开");
         }
     }
 

@@ -11,7 +11,7 @@
 <body>
 <form class="m-t"
       role="form"
-      th:action="@{/register/register}"
+      th:action="@{/loginIn}"
       method="post"
       onsubmit="javascript:$('input[type=submit]').css('disabled','disabled');">
     <div class="sign-up-htm">
@@ -21,7 +21,7 @@
                    type="text"
                    class="input"
                    placeholder="email"
-                   name="account"
+                   name="crsKey"
                    value="xuesemofa@126.com"/>
         </div>
         <div class="group">
@@ -31,8 +31,8 @@
                    class="input"
                    data-type="password"
                    placeholder="长度为8-16的字母和数字组合，需包含大小写"
-                   name="password"
-                   value="12345678a"/>
+                   name="signature"
+                   value="xuesemofa123"/>
         </div>
         <div class="group">
             <label for="pass21" class="label">Repeat Password</label>
@@ -42,11 +42,11 @@
                    data-type="password"
                    placeholder="长度为8-16的字母和数字组合，需包含大小写"
                    name="password2"
-                   value="12345678a"/>
+                   value="xuesemofa123"/>
         </div>
         <div class="group">
             <label for="yam" class="label">Verification</label>
-            <input id="yam" type="text" class="input" name="yzm" value="12345678a"/>
+            <input id="yam" type="text" class="input" name="yzm" value="xuesemofa123"/>
         </div>
         <div class="group">
             <input type="submit" class="button" value="Sign Up"/>
